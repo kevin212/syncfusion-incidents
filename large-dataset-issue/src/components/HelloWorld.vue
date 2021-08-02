@@ -68,7 +68,7 @@ export default Vue.extend({
       query: [],
       maxColCountx: 25,
       maxRowCount: 100,
-      spreadsheetProtected: true,
+      spreadsheetProtected: false,
       spreadsheetDataSource: [],
       rowIndex: 30,
       colIndex: 4,
@@ -105,9 +105,13 @@ export default Vue.extend({
   },
   methods: {
     spreadsheetCreated() {
+      this.addTotalsColumn();
       this.styleSpreadsheet();
     },
     objectHasProperty(object, property) {
+        return Object.prototype.hasOwnProperty.call(object, property);
+    },
+    buildQueryModel(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
     },
     styleSpreadsheet() {
@@ -116,6 +120,16 @@ export default Vue.extend({
       spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, 'A1:Z1');
       spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
       spreadsheet.cellFormat({textAlign: 'left', fontSize: '10px', fontFamily: 'Arial'}, `A1:Z${this.spreadsheetDataSource.length + 1}`);
+    },
+    addTotalsColumn() {
+      const spreadsheet = this.$refs.spreadsheet;
+
+      this.spreadsheetDataSource.forEach((rowObject, index) => {
+          const row = index + 2;
+          const formula = `=SUM(B${row}:Y${row})`;
+          const config = {isLocked: true, formula};
+          spreadsheet.updateCell(config, `Z${row}`);
+      });
     },
     processQueryString() {
       const queryStringObject = this.queryToObject();
