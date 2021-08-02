@@ -45,6 +45,8 @@ import { Query } from "@syncfusion/ej2-data";
 import * as demoData from "./large-dataset.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
+const FONT_SIZE_HEADER = '18px;';
+const FONT_SIZE_DATA = '14px;';
 const COL_WIDTH_DATA_CELL = 100;
 const COL_WIDTH_ROW_TOTAL = 200;
 const COL_WIDTH_METER_DESCRIPTION = 250;
@@ -118,15 +120,15 @@ export default Vue.extend({
     styleSpreadsheet() {
       const spreadsheet = this.$refs.spreadsheet;
       const lastRowIndex = this.spreadsheetDataSource.length + 2;
-      const headersConfig = {fontWeight: 'bold', fontSize: '12px', backgroundColor: '#eef3f5'};
+      const headersConfig = {fontWeight: 'bold', fontSize: FONT_SIZE_HEADER, backgroundColor: '#eef3f5'};
       const totalsConfig = {fontWeight: 'bold', backgroundColor: '#fefee1'};
 
       spreadsheet.cellFormat(headersConfig, 'A1:Z1');
       spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
-      spreadsheet.cellFormat({textAlign: 'left', fontSize: '10px', fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
-      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 1}`);
+      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
     },
     letterFromNumber(num) {
       let letter = String.fromCharCode(97 + num)
