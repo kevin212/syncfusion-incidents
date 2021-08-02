@@ -52,7 +52,8 @@ const COL_WIDTH_METER_DESCRIPTION = 250;
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
-    this.spreadsheetDataSource = demoData.default;
+    this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData.default));
+    this.processQueryString();
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
@@ -115,6 +116,38 @@ export default Vue.extend({
       spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, 'A1:Z1');
       spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
       spreadsheet.cellFormat({textAlign: 'left', fontSize: '10px', fontFamily: 'Arial'}, `A1:Z${this.spreadsheetDataSource.length + 1}`);
+    },
+    processQueryString() {
+      const queryStringObject = this.queryToObject();
+      const dataSource = this.spreadsheetDataSource;
+
+      if (queryStringObject && queryStringObject.dataRows){
+        console.warn('queryStringObject ->');
+        console.dir(queryStringObject);
+        const totaldDtaRows = parseInt(queryStringObject.dataRows, 10);
+
+        if (totaldDtaRows && totaldDtaRows < dataSource.length){
+          dataSource.length = totaldDtaRows;
+          console.warn(`Data size: ${dataSource.length} elements`);	
+        } else {
+          console.warn(`queryString.dataRows equals or exceeds actual data size. Using actual data size. (${dataSource.length} elements)`);
+        }
+      }
+    },
+    queryToObject (){
+        var
+        i = 0,
+        retObj = {},
+        pair = null,
+        sPageURL = window.location.search.substring(1),
+        qArr = sPageURL.split('&');
+
+        for (; i < qArr.length; i++){
+            pair = qArr[i].split('=');
+            retObj[pair[0]] = pair[1];
+        }
+
+        return retObj;
     },
     buildColumns(data) {
       const hourText = 'hour';
