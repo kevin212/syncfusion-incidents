@@ -174,7 +174,7 @@ export default Vue.extend({
 
         configs.push({
           cell: `${letter}${this.spreadsheetDataSource.length + 2}`,
-          props : { formula: `=SUM(${letter}2:${letter}${this.spreadsheetDataSource.length})`, isLocked: false}
+          props : { formula: `=SUM(${letter}2:${letter}${this.spreadsheetDataSource.length + 1})`, isLocked: false}
         });
       }
 
