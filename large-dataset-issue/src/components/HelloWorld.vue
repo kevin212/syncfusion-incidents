@@ -76,33 +76,9 @@ export default Vue.extend({
       colIndex: 4,
       columns: [],
       scrollSettings: {isFinite: true, enableVirtualization: true},
-      queryModel: [
-        'meterDescription',
-        'hour01',
-        'hour02',
-        'hour03',
-        'hour04',
-        'hour05',
-        'hour06',
-        'hour07',
-        'hour08',
-        'hour09',
-        'hour10',
-        'hour11',
-        'hour12',
-        'hour13',
-        'hour14',
-        'hour15',
-        'hour16',
-        'hour17',
-        'hour18',
-        'hour19',
-        'hour20',
-        'hour21',
-        'hour22',
-        'hour23',
-        'hour24'
-      ]
+      queryModel: ['meterDescription','hour01','hour02','hour03','hour04','hour05',
+      'hour06','hour07','hour08','hour09','hour10','hour11','hour12','hour13','hour14',
+      'hour15','hour16','hour17','hour18','hour19','hour20','hour21','hour22','hour23','hour24']
     }
   },
   methods: {
