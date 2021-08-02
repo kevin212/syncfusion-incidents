@@ -57,7 +57,7 @@ export default Vue.extend({
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
-    this.maxRowCount = this.spreadsheetDataSource.length + 1;
+    this.maxRowCount = this.spreadsheetDataSource.length + 2;
     setTimeout(() => {this.spreadsheetVisible = true;}, 1000);
   },
   data: () => {
@@ -106,6 +106,7 @@ export default Vue.extend({
   methods: {
     spreadsheetCreated() {
       this.addTotalsColumn();
+      this.addTotalsRowFormulas(this.buildTotalsRowFormulaConfigs());
       this.styleSpreadsheet();
     },
     objectHasProperty(object, property) {
@@ -116,10 +117,32 @@ export default Vue.extend({
     },
     styleSpreadsheet() {
       const spreadsheet = this.$refs.spreadsheet;
+      const lastRowIndex = this.spreadsheetDataSource.length + 2;
+      const headersConfig = {fontWeight: 'bold', fontSize: '12px', backgroundColor: '#eef3f5'};
+      const totalsConfig = {fontWeight: 'bold', backgroundColor: '#fefee1'};
 
-      spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, 'A1:Z1');
-      spreadsheet.cellFormat({fontWeight: 'bold', fontSize: '12px'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
-      spreadsheet.cellFormat({textAlign: 'left', fontSize: '10px', fontFamily: 'Arial'}, `A1:Z${this.spreadsheetDataSource.length + 1}`);
+      spreadsheet.cellFormat(headersConfig, 'A1:Z1');
+      spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
+      spreadsheet.cellFormat({textAlign: 'left', fontSize: '10px', fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+      spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
+      spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 1}`);
+    },
+    letterFromNumber(num) {
+      let letter = String.fromCharCode(97 + num)
+      return letter.toUpperCase();
+    },
+    alphabetPosition(text) {
+      let result = '';
+
+      for (let i = 0; i < text.length; i++) {
+        let code = text.toUpperCase().charCodeAt(i);
+        if (code > 64 && code < 91) {
+          result += (code - 64) + ' ';
+        }
+      }
+
+      return result.slice(0, result.length - 1);
     },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
@@ -130,6 +153,32 @@ export default Vue.extend({
           const config = {isLocked: true, formula};
           spreadsheet.updateCell(config, `Z${row}`);
       });
+    },
+    addTotalsRowFormulas(configs) {
+      const spreadsheet = this.$refs.spreadsheet;
+      spreadsheet.insertRow(this.spreadsheetDataSource.length + 1);
+
+      configs.forEach(config => {
+        spreadsheet.updateCell(config.props, config.cell);
+      });
+    },
+    buildTotalsRowFormulaConfigs() {
+      const configs = [];
+      const firstLetter = 'B';
+      const lastLetter = 'Z';
+      const firstLetterIndex = this.alphabetPosition(firstLetter);
+      const lastLetterIndex = this.alphabetPosition(lastLetter);
+
+      for (let i = firstLetterIndex; i <= lastLetterIndex; i++ ) {
+        const letter = this.letterFromNumber(i - 1);
+
+        configs.push({
+          cell: `${letter}${this.spreadsheetDataSource.length + 2}`,
+          props : { formula: `=SUM(${letter}2:${letter}${this.spreadsheetDataSource.length})`, isLocked: false}
+        });
+      }
+
+      return configs;
     },
     processQueryString() {
       const queryStringObject = this.queryToObject();
