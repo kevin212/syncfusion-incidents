@@ -47,9 +47,9 @@ import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
 const FONT_SIZE_HEADER = '18px;';
 const FONT_SIZE_DATA = '14px;';
-const COL_WIDTH_DATA_CELL = 100;
-const COL_WIDTH_ROW_TOTAL = 200;
-const COL_WIDTH_METER_DESCRIPTION = 250;
+const COL_WIDTH_DATA_CELL = 60;
+const COL_WIDTH_ROW_TOTAL = 75;
+const COL_WIDTH_METER_DESCRIPTION = 150;
 
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
@@ -101,10 +101,15 @@ export default Vue.extend({
 
       spreadsheet.cellFormat(headersConfig, 'A1:Z1');
       spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
+      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:A${lastRowIndex}`);
       spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
+
+      // set the meter description width
+      spreadsheet.setColWidth(200, 0, 0);
+      spreadsheet.resize();
     },
     letterFromNumber(num) {
       let letter = String.fromCharCode(97 + num)
