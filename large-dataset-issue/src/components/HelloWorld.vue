@@ -125,7 +125,7 @@ export default Vue.extend({
 
       spreadsheet.cellFormat(headersConfig, 'A1:Z1');
       spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
-      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+      spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
