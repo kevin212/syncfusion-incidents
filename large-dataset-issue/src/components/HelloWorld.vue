@@ -42,7 +42,8 @@
 <script>
 import Vue from "vue";
 import { Query } from "@syncfusion/ej2-data";
-import * as demoData from "./large-dataset.json";
+import * as demoData_A from "./demo-data-a.json";
+import * as demoData_B from "./demo-data-b.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
 const FONT_SIZE_DATA = '14px;';
@@ -51,8 +52,8 @@ const FONT_SIZE_HEADER = '18px;';
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
-    this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData.default));
-    this.processQueryString();
+    this.setSpreadsheetDataSource()
+    this.processCustomDataSize();
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
@@ -119,6 +120,19 @@ export default Vue.extend({
         spreadsheet.updateCell(config.props, config.cell);
       });
     },
+    setSpreadsheetDataSource() {
+      const queryStringObject = this.queryToObject();
+
+      if (queryStringObject && queryStringObject.dataSet){
+        if (queryStringObject.dataSet === 'b'){
+            this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_B.default));
+            console.warn(`Using demoData_B, total size: ${this.spreadsheetDataSource.length} rows`);
+        }
+      } else {
+        this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
+        console.warn(`Using demoData_A, total size: ${this.spreadsheetDataSource.length} rows`);
+      }
+    },
     alphabetPosition(text) {
       let result = '';
 
@@ -149,7 +163,7 @@ export default Vue.extend({
 
       return configs;
     },
-    processQueryString() {
+    processCustomDataSize() {
       const queryStringObject = this.queryToObject();
       const dataSource = this.spreadsheetDataSource;
 
