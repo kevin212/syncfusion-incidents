@@ -1,7 +1,7 @@
 [{
 	"meterId": "1627671656210-96e3-654b",
 	"channel": 3,
-	"meterDescription": "New York (1627671656210-4ab0-cd7f)",
+	"meterDescription": "NewYork (665b)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -30,7 +30,7 @@
 }, {
 	"meterId": "1627671656210-fe8b-205b",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671656210-33f2-9f19)",
+	"meterDescription": "LosAngeles (84b4)",
 	"isDst": false,
 	"hour01": "0.329",
 	"hour02": "0.756",
@@ -59,7 +59,7 @@
 }, {
 	"meterId": "1627671656210-9dfa-d4b8",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671656210-ea97-eb01)",
+	"meterDescription": "Chicago (5361)",
 	"isDst": false,
 	"hour01": "1.432",
 	"hour02": "0.699",
@@ -88,7 +88,7 @@
 }, {
 	"meterId": "1627671656210-2e88-e946",
 	"channel": 1,
-	"meterDescription": "Houston (1627671656210-d30b-2472)",
+	"meterDescription": "Houston (1d6e)",
 	"isDst": false,
 	"hour01": "0.731",
 	"hour02": "0.326",
@@ -117,7 +117,7 @@
 }, {
 	"meterId": "1627671656210-7f67-1a58",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671656210-a68a-885d)",
+	"meterDescription": "Philadelphia (b75b)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -146,7 +146,7 @@
 }, {
 	"meterId": "1627671656210-2c54-b670",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671656210-9281-d74f)",
+	"meterDescription": "Phoenix (c580)",
 	"isDst": false,
 	"hour01": "-0.550",
 	"hour02": "-0.111",
@@ -175,7 +175,7 @@
 }, {
 	"meterId": "1627671656210-c8d1-c9b4",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671656210-c12a-79df)",
+	"meterDescription": "SanDiego (94d9)",
 	"isDst": false,
 	"hour01": "0.039",
 	"hour02": "0.373",
@@ -204,7 +204,7 @@
 }, {
 	"meterId": "1627671656210-4469-99fe",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671656210-4df6-df22)",
+	"meterDescription": "SanAntonio (23f8)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -233,7 +233,7 @@
 }, {
 	"meterId": "1627671656210-bf5c-e625",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671656210-8e0f-07af)",
+	"meterDescription": "Dallas (5c2c)",
 	"isDst": false,
 	"hour01": "0.760",
 	"hour02": "1.213",
@@ -262,7 +262,7 @@
 }, {
 	"meterId": "1627671656210-3dba-a8d2",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671656210-3960-3a66)",
+	"meterDescription": "Detroit (07c7)",
 	"isDst": false,
 	"hour01": "1.321",
 	"hour02": "0.438",
@@ -291,7 +291,7 @@
 }, {
 	"meterId": "1627671656210-9b47-08a1",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671656210-cae1-4bd1)",
+	"meterDescription": "SanJose (dca0)",
 	"isDst": false,
 	"hour01": "-0.722",
 	"hour02": "-0.126",
@@ -320,7 +320,7 @@
 }, {
 	"meterId": "1627671656210-ff7d-191e",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671656210-6e53-81de)",
+	"meterDescription": "Indianapolis (92c3)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -349,7 +349,7 @@
 }, {
 	"meterId": "1627671656210-6cd1-d9b1",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671656210-8263-fa62)",
+	"meterDescription": "Jacksonville (ff9e)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -378,7 +378,7 @@
 }, {
 	"meterId": "1627671656210-1180-1d67",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671656210-7bfe-8a20)",
+	"meterDescription": "SanFrancisco (8de5)",
 	"isDst": false,
 	"hour01": "0.847",
 	"hour02": "0.719",
@@ -407,7 +407,7 @@
 }, {
 	"meterId": "1627671656210-8dc0-f03d",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671656210-f1b7-9619)",
+	"meterDescription": "Columbus (e623)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -436,7 +436,7 @@
 }, {
 	"meterId": "1627671656210-45e3-0a23",
 	"channel": 1,
-	"meterDescription": "Austin (1627671656210-29ea-4f30)",
+	"meterDescription": "Austin (45fa)",
 	"isDst": false,
 	"hour01": "-1.323",
 	"hour02": "-0.410",
@@ -465,7 +465,7 @@
 }, {
 	"meterId": "1627671656210-e90e-d829",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671656210-5d3e-059f)",
+	"meterDescription": "Memphis (cd44)",
 	"isDst": false,
 	"hour01": "1.035",
 	"hour02": "0.425",
@@ -494,7 +494,7 @@
 }, {
 	"meterId": "1627671656210-e27c-a9b6",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671656210-1bd6-aed6)",
+	"meterDescription": "Baltimore (e9cf)",
 	"isDst": false,
 	"hour01": "0.561",
 	"hour02": "0.164",
@@ -523,7 +523,7 @@
 }, {
 	"meterId": "1627671656210-5444-4b57",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671656210-f4fb-ccd4)",
+	"meterDescription": "Charlotte (a155)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -552,7 +552,7 @@
 }, {
 	"meterId": "1627671656210-b299-2bde",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671656210-dfef-905b)",
+	"meterDescription": "FortWorth (0a44)",
 	"isDst": false,
 	"hour01": "0.401",
 	"hour02": "0.168",
@@ -581,7 +581,7 @@
 }, {
 	"meterId": "1627671656210-b8d3-fd09",
 	"channel": 1,
-	"meterDescription": "Boston (1627671656210-084b-23fa)",
+	"meterDescription": "Boston (c9bc)",
 	"isDst": false,
 	"hour01": "-1.412",
 	"hour02": "-1.303",
@@ -610,7 +610,7 @@
 }, {
 	"meterId": "1627671656210-19f1-83f4",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671656210-1aa3-b24e)",
+	"meterDescription": "Milwaukee (f892)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -639,7 +639,7 @@
 }, {
 	"meterId": "1627671656210-5e43-051e",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671656210-c856-507b)",
+	"meterDescription": "ElPaso (6499)",
 	"isDst": false,
 	"hour01": "0.873",
 	"hour02": "0.303",
@@ -668,7 +668,7 @@
 }, {
 	"meterId": "1627671656210-ab14-03ea",
 	"channel": 1,
-	"meterDescription": "Washington (1627671656210-2f47-ccfe)",
+	"meterDescription": "Washington (b5ba)",
 	"isDst": false,
 	"hour01": "0.260",
 	"hour02": "1.030",
@@ -697,7 +697,7 @@
 }, {
 	"meterId": "1627671656210-c94e-56d0",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671656210-8fb3-f478)",
+	"meterDescription": "Nashville-Davidson (6de2)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -726,7 +726,7 @@
 }, {
 	"meterId": "1627671656210-7c96-d24e",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671656210-e919-3668)",
+	"meterDescription": "Seattle (a622)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -755,7 +755,7 @@
 }, {
 	"meterId": "1627671656210-5df7-00b2",
 	"channel": 0,
-	"meterDescription": "Denver (1627671656210-5fcd-a194)",
+	"meterDescription": "Denver (124c)",
 	"isDst": false,
 	"hour01": "1.124",
 	"hour02": "0.673",
@@ -784,7 +784,7 @@
 }, {
 	"meterId": "1627671656210-3593-ee58",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671656210-b4b3-ae95)",
+	"meterDescription": "LasVegas (2a27)",
 	"isDst": false,
 	"hour01": "0.122",
 	"hour02": "0.811",
@@ -813,7 +813,7 @@
 }, {
 	"meterId": "1627671656210-f1b8-a4fb",
 	"channel": 0,
-	"meterDescription": "Portland (1627671656210-4b58-b79d)",
+	"meterDescription": "Portland (aba9)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -842,7 +842,7 @@
 }, {
 	"meterId": "1627671656210-4e5f-336a",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671656210-4a9e-33e9)",
+	"meterDescription": "OklahomaCity (5680)",
 	"isDst": false,
 	"hour01": "0.670",
 	"hour02": "0.736",
@@ -871,7 +871,7 @@
 }, {
 	"meterId": "1627671656210-61bf-1350",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671656210-0c1c-2939)",
+	"meterDescription": "Tucson (4c6c)",
 	"isDst": false,
 	"hour01": "-0.292",
 	"hour02": "-0.817",
@@ -900,7 +900,7 @@
 }, {
 	"meterId": "1627671656210-0166-17a5",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671656210-36d3-5e80)",
+	"meterDescription": "Albuquerque (dfdd)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0",
@@ -929,7 +929,7 @@
 }, {
 	"meterId": "1627671656210-4499-cfdc",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671656210-bc81-b2cf)",
+	"meterDescription": "Atlanta (7d4c)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -958,7 +958,7 @@
 }, {
 	"meterId": "1627671656210-4c3c-de7d",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671656210-cb23-95da)",
+	"meterDescription": "LongBeach (873e)",
 	"isDst": false,
 	"hour01": "0.962",
 	"hour02": "0.181",
@@ -987,7 +987,7 @@
 }, {
 	"meterId": "1627671656210-40df-1afc",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671656210-305f-b182)",
+	"meterDescription": "KansasCity (2e33)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.094",
@@ -1016,7 +1016,7 @@
 }, {
 	"meterId": "1627671656210-5e93-46c9",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671656210-c02d-a542)",
+	"meterDescription": "Fresno (495f)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1045,7 +1045,7 @@
 }, {
 	"meterId": "1627671656210-ae63-9cf9",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671656210-abe5-c069)",
+	"meterDescription": "NewOrleans (1335)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1074,7 +1074,7 @@
 }, {
 	"meterId": "1627671656210-3dc3-ba82",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671656210-1bf2-cc53)",
+	"meterDescription": "Cleveland (c7e2)",
 	"isDst": false,
 	"hour01": "0.434",
 	"hour02": "1.259",
@@ -1103,7 +1103,7 @@
 }, {
 	"meterId": "1627671656210-c450-f187",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671656210-7377-b95f)",
+	"meterDescription": "Sacramento (ee93)",
 	"isDst": false,
 	"hour01": "1.211",
 	"hour02": "0.355",
@@ -1132,7 +1132,7 @@
 }, {
 	"meterId": "1627671656210-c1f3-cbeb",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671656210-e678-0555)",
+	"meterDescription": "Mesa (7833)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -1161,7 +1161,7 @@
 }, {
 	"meterId": "1627671656210-00a7-57bb",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671656210-d675-98a0)",
+	"meterDescription": "VirginiaBeach (9c90)",
 	"isDst": false,
 	"hour01": "-0.415",
 	"hour02": "-0.474",
@@ -1190,7 +1190,7 @@
 }, {
 	"meterId": "1627671656210-30e0-293e",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671656210-03ba-d925)",
+	"meterDescription": "Omaha (916f)",
 	"isDst": false,
 	"hour01": "0.053",
 	"hour02": "0.210",
@@ -1219,7 +1219,7 @@
 }, {
 	"meterId": "1627671656210-2b5e-74e8",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671656210-6042-0214)",
+	"meterDescription": "ColoradoSprings (b769)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1248,7 +1248,7 @@
 }, {
 	"meterId": "1627671656210-c775-e052",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671656210-40c3-9d9f)",
+	"meterDescription": "Oakland (de6d)",
 	"isDst": false,
 	"hour01": "0.859",
 	"hour02": "0.521",
@@ -1277,7 +1277,7 @@
 }, {
 	"meterId": "1627671656210-6cbb-111d",
 	"channel": 3,
-	"meterDescription": "Miami (1627671656210-2c6c-467a)",
+	"meterDescription": "Miami (aaab)",
 	"isDst": false,
 	"hour01": "0.058",
 	"hour02": "0.693",
@@ -1306,7 +1306,7 @@
 }, {
 	"meterId": "1627671656210-90d1-75fc",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671656210-cac7-703a)",
+	"meterDescription": "Tulsa (76e3)",
 	"isDst": false,
 	"hour01": "-0.650",
 	"hour02": "-1.009",
@@ -1335,7 +1335,7 @@
 }, {
 	"meterId": "1627671656210-f0bc-debf",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671656210-fd22-f410)",
+	"meterDescription": "Minneapolis (8182)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -1364,7 +1364,7 @@
 }, {
 	"meterId": "1627671656210-41ce-658c",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671656210-6426-ba09)",
+	"meterDescription": "Honolulu (5738)",
 	"isDst": false,
 	"hour01": "0.666",
 	"hour02": "1.170",
@@ -1393,7 +1393,7 @@
 }, {
 	"meterId": "1627671656210-1381-9d27",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671656210-8f39-a483)",
+	"meterDescription": "Arlington (6e46)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1422,7 +1422,7 @@
 }, {
 	"meterId": "1627671656210-0aec-95a0",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671656210-4f1a-4421)",
+	"meterDescription": "Wichita (5c54)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1451,7 +1451,7 @@
 }, {
 	"meterId": "1627671656210-60dd-236f",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671656210-b472-5b24)",
+	"meterDescription": "St.Louis (4eb7)",
 	"isDst": false,
 	"hour01": "-0.663",
 	"hour02": "-0.455",
@@ -1480,7 +1480,7 @@
 }, {
 	"meterId": "1627671656210-aeb8-30c2",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671656210-110e-95e5)",
+	"meterDescription": "Raleigh (fcdb)",
 	"isDst": false,
 	"hour01": "0.456",
 	"hour02": "1.362",
@@ -1509,7 +1509,7 @@
 }, {
 	"meterId": "1627671656210-2460-eea6",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671656210-452b-9760)",
+	"meterDescription": "SantaAna (6ead)",
 	"isDst": false,
 	"hour01": "0.225",
 	"hour02": "1.398",
@@ -1538,7 +1538,7 @@
 }, {
 	"meterId": "1627671656210-ac91-c9ef",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671656210-8907-9a5b)",
+	"meterDescription": "Cincinnati (af57)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -1567,7 +1567,7 @@
 }, {
 	"meterId": "1627671656210-4eca-a1fd",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671656210-0cf8-3883)",
+	"meterDescription": "Anaheim (5ebf)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0.189",
@@ -1596,7 +1596,7 @@
 }, {
 	"meterId": "1627671656210-0a7f-0fda",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671656210-1ace-ff0d)",
+	"meterDescription": "Tampa (2e4f)",
 	"isDst": false,
 	"hour01": "-1.488",
 	"hour02": "-0.068",
@@ -1625,7 +1625,7 @@
 }, {
 	"meterId": "1627671656210-b7ec-c96f",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671656210-784a-abc8)",
+	"meterDescription": "Toledo (86a3)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1654,7 +1654,7 @@
 }, {
 	"meterId": "1627671656210-65cf-ad41",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671656210-53e2-cf94)",
+	"meterDescription": "Pittsburgh (c924)",
 	"isDst": false,
 	"hour01": "1.032",
 	"hour02": "0.320",
@@ -1683,7 +1683,7 @@
 }, {
 	"meterId": "1627671656210-ffb1-ef90",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671656210-ac5a-9273)",
+	"meterDescription": "Aurora (7fec)",
 	"isDst": false,
 	"hour01": "1.223",
 	"hour02": "0.993",
@@ -1712,7 +1712,7 @@
 }, {
 	"meterId": "1627671656210-9a51-361e",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671656210-0b14-fe89)",
+	"meterDescription": "Bakersfield (da54)",
 	"isDst": false,
 	"hour01": "0.061",
 	"hour02": "0.573",
@@ -1741,7 +1741,7 @@
 }, {
 	"meterId": "1627671713169-19e0-f068",
 	"channel": 3,
-	"meterDescription": "New York (1627671713169-d0d7-a844)",
+	"meterDescription": "NewYork (b13b)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1770,7 +1770,7 @@
 }, {
 	"meterId": "1627671713169-3d56-a777",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671713169-7394-edfb)",
+	"meterDescription": "LosAngeles (55fe)",
 	"isDst": false,
 	"hour01": "0.329",
 	"hour02": "0.756",
@@ -1799,7 +1799,7 @@
 }, {
 	"meterId": "1627671713169-1b1a-80f6",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671713169-1c4f-0d58)",
+	"meterDescription": "Chicago (4073)",
 	"isDst": false,
 	"hour01": "1.432",
 	"hour02": "0.699",
@@ -1828,7 +1828,7 @@
 }, {
 	"meterId": "1627671713169-37e5-0694",
 	"channel": 1,
-	"meterDescription": "Houston (1627671713169-37ef-c23f)",
+	"meterDescription": "Houston (7018)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -1857,7 +1857,7 @@
 }, {
 	"meterId": "1627671713169-e689-ac76",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671713169-f545-1b4f)",
+	"meterDescription": "Philadelphia (babd)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -1886,7 +1886,7 @@
 }, {
 	"meterId": "1627671713169-6c5e-f392",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671713169-03a1-1ea0)",
+	"meterDescription": "Phoenix (1804)",
 	"isDst": false,
 	"hour01": "-0.550",
 	"hour02": "-0.111",
@@ -1915,7 +1915,7 @@
 }, {
 	"meterId": "1627671713169-fb10-e475",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671713169-3e94-1fbe)",
+	"meterDescription": "SanDiego (daa3)",
 	"isDst": false,
 	"hour01": "0.039",
 	"hour02": "0.373",
@@ -1944,7 +1944,7 @@
 }, {
 	"meterId": "1627671713169-b93e-832e",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671713169-5f66-7e7f)",
+	"meterDescription": "SanAntonio (d712)",
 	"isDst": false,
 	"hour01": "1.198",
 	"hour02": "0.406",
@@ -1973,7 +1973,7 @@
 }, {
 	"meterId": "1627671713169-8e95-f801",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671713169-721f-f986)",
+	"meterDescription": "Dallas (7b90)",
 	"isDst": false,
 	"hour01": "0.760",
 	"hour02": "1.213",
@@ -2002,7 +2002,7 @@
 }, {
 	"meterId": "1627671713169-d060-adbe",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671713169-58ef-d5b9)",
+	"meterDescription": "Detroit (b19f)",
 	"isDst": false,
 	"hour01": "1.321",
 	"hour02": "0.438",
@@ -2031,7 +2031,7 @@
 }, {
 	"meterId": "1627671713169-4abf-dbdc",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671713169-e86e-3272)",
+	"meterDescription": "SanJose (13d2)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2060,7 +2060,7 @@
 }, {
 	"meterId": "1627671713169-499b-c28b",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671713169-b5bf-aa4f)",
+	"meterDescription": "Indianapolis (904e)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -2089,7 +2089,7 @@
 }, {
 	"meterId": "1627671713169-069e-bbcc",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671713169-7604-6c69)",
+	"meterDescription": "Jacksonville (0528)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2118,7 +2118,7 @@
 }, {
 	"meterId": "1627671713169-d4ae-a9a1",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671713169-67c2-4b73)",
+	"meterDescription": "SanFrancisco (8e4c)",
 	"isDst": false,
 	"hour01": "0.847",
 	"hour02": "0.719",
@@ -2147,7 +2147,7 @@
 }, {
 	"meterId": "1627671713169-e14a-8094",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671713169-ec60-c30e)",
+	"meterDescription": "Columbus (3fe4)",
 	"isDst": false,
 	"hour01": "0.516",
 	"hour02": "0.962",
@@ -2176,7 +2176,7 @@
 }, {
 	"meterId": "1627671713169-4f14-c375",
 	"channel": 1,
-	"meterDescription": "Austin (1627671713169-1443-9e7f)",
+	"meterDescription": "Austin (74cc)",
 	"isDst": false,
 	"hour01": "-1.323",
 	"hour02": "-0.410",
@@ -2205,7 +2205,7 @@
 }, {
 	"meterId": "1627671713169-226a-dbc4",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671713169-cce1-a013)",
+	"meterDescription": "Memphis (93a2)",
 	"isDst": false,
 	"hour01": "1.035",
 	"hour02": "0.425",
@@ -2234,7 +2234,7 @@
 }, {
 	"meterId": "1627671713169-6a14-7ca3",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671713169-a9f1-0c8f)",
+	"meterDescription": "Baltimore (9618)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2263,7 +2263,7 @@
 }, {
 	"meterId": "1627671713169-0701-b313",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671713169-2205-9f8f)",
+	"meterDescription": "Charlotte (bc62)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -2292,7 +2292,7 @@
 }, {
 	"meterId": "1627671713169-7343-2ff4",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671713169-f54d-b4dc)",
+	"meterDescription": "FortWorth (01d3)",
 	"isDst": false,
 	"hour01": "0.401",
 	"hour02": "0.168",
@@ -2321,7 +2321,7 @@
 }, {
 	"meterId": "1627671713169-8e4c-5b20",
 	"channel": 1,
-	"meterDescription": "Boston (1627671713169-67dc-acc4)",
+	"meterDescription": "Boston (1b7a)",
 	"isDst": false,
 	"hour01": "-1.412",
 	"hour02": "-1.303",
@@ -2350,7 +2350,7 @@
 }, {
 	"meterId": "1627671713169-c7b7-a126",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671713169-2b7b-d2c5)",
+	"meterDescription": "Milwaukee (04a6)",
 	"isDst": false,
 	"hour01": "0.265",
 	"hour02": "0.572",
@@ -2379,7 +2379,7 @@
 }, {
 	"meterId": "1627671713169-eb90-e4b9",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671713169-c013-ad08)",
+	"meterDescription": "ElPaso (c537)",
 	"isDst": false,
 	"hour01": "0.873",
 	"hour02": "0.303",
@@ -2408,7 +2408,7 @@
 }, {
 	"meterId": "1627671713169-aa6c-a808",
 	"channel": 1,
-	"meterDescription": "Washington (1627671713169-365a-ad13)",
+	"meterDescription": "Washington (b2c3)",
 	"isDst": false,
 	"hour01": "0.260",
 	"hour02": "1.030",
@@ -2437,7 +2437,7 @@
 }, {
 	"meterId": "1627671713169-68d5-b056",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671713169-6d6a-d250)",
+	"meterDescription": "Nashville-Davidson (074f)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2466,7 +2466,7 @@
 }, {
 	"meterId": "1627671713169-2a20-6c77",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671713169-bb24-808a)",
+	"meterDescription": "Seattle (1614)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -2495,7 +2495,7 @@
 }, {
 	"meterId": "1627671713169-5287-d934",
 	"channel": 0,
-	"meterDescription": "Denver (1627671713169-3146-29b6)",
+	"meterDescription": "Denver (5e3c)",
 	"isDst": false,
 	"hour01": "1.124",
 	"hour02": "0.673",
@@ -2524,7 +2524,7 @@
 }, {
 	"meterId": "1627671713169-d924-e1c9",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671713169-df3c-e835)",
+	"meterDescription": "LasVegas (bb74)",
 	"isDst": false,
 	"hour01": "0.122",
 	"hour02": "0.811",
@@ -2553,7 +2553,7 @@
 }, {
 	"meterId": "1627671713169-c677-3a9b",
 	"channel": 0,
-	"meterDescription": "Portland (1627671713169-e400-c24c)",
+	"meterDescription": "Portland (6f32)",
 	"isDst": false,
 	"hour01": "0.330",
 	"hour02": "0.103",
@@ -2582,7 +2582,7 @@
 }, {
 	"meterId": "1627671713169-ad65-bf8f",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671713169-cbf6-2da5)",
+	"meterDescription": "OklahomaCity (b55c)",
 	"isDst": false,
 	"hour01": "0.670",
 	"hour02": "0.736",
@@ -2611,7 +2611,7 @@
 }, {
 	"meterId": "1627671713169-7077-9d32",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671713169-f459-1cd9)",
+	"meterDescription": "Tucson (6345)",
 	"isDst": false,
 	"hour01": "-0.292",
 	"hour02": "-0.817",
@@ -2640,7 +2640,7 @@
 }, {
 	"meterId": "1627671713169-17e3-b658",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671713169-82df-57c2)",
+	"meterDescription": "Albuquerque (04c3)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2669,7 +2669,7 @@
 }, {
 	"meterId": "1627671713169-b231-e20b",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671713169-40bb-19ad)",
+	"meterDescription": "Atlanta (0979)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -2698,7 +2698,7 @@
 }, {
 	"meterId": "1627671713169-080b-90ca",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671713169-5029-db62)",
+	"meterDescription": "LongBeach (275f)",
 	"isDst": false,
 	"hour01": "0.962",
 	"hour02": "0.181",
@@ -2727,7 +2727,7 @@
 }, {
 	"meterId": "1627671713169-9a3f-13cd",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671713169-db3f-ba9f)",
+	"meterDescription": "KansasCity (1483)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.094",
@@ -2756,7 +2756,7 @@
 }, {
 	"meterId": "1627671713169-44d5-ddc5",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671713169-b275-5853)",
+	"meterDescription": "Fresno (3d75)",
 	"isDst": false,
 	"hour01": "-1.137",
 	"hour02": "-0.982",
@@ -2785,7 +2785,7 @@
 }, {
 	"meterId": "1627671713169-aa49-698b",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671713169-b483-f715)",
+	"meterDescription": "NewOrleans (0019)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2814,7 +2814,7 @@
 }, {
 	"meterId": "1627671713169-2220-3058",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671713169-d1de-282b)",
+	"meterDescription": "Cleveland (9dd7)",
 	"isDst": false,
 	"hour01": "0.434",
 	"hour02": "1.259",
@@ -2843,7 +2843,7 @@
 }, {
 	"meterId": "1627671713169-b47a-897e",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671713169-706b-cfe8)",
+	"meterDescription": "Sacramento (f35a)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -2872,7 +2872,7 @@
 }, {
 	"meterId": "1627671713169-34af-c5c3",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671713169-555e-e791)",
+	"meterDescription": "Mesa (d720)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -2901,7 +2901,7 @@
 }, {
 	"meterId": "1627671713169-44b6-fcd9",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671713169-bf10-704a)",
+	"meterDescription": "VirginiaBeach (b2d4)",
 	"isDst": false,
 	"hour01": "-0.415",
 	"hour02": "-0.474",
@@ -2930,7 +2930,7 @@
 }, {
 	"meterId": "1627671713169-80b8-7c3a",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671713169-94f2-1dde)",
+	"meterDescription": "Omaha (5bb7)",
 	"isDst": false,
 	"hour01": "0.053",
 	"hour02": "0.210",
@@ -2959,7 +2959,7 @@
 }, {
 	"meterId": "1627671713169-49dc-a7eb",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671713169-8758-97af)",
+	"meterDescription": "ColoradoSprings (9509)",
 	"isDst": false,
 	"hour01": "0.211",
 	"hour02": "0.228",
@@ -2988,7 +2988,7 @@
 }, {
 	"meterId": "1627671713169-d7a4-14df",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671713169-4250-0757)",
+	"meterDescription": "Oakland (9703)",
 	"isDst": false,
 	"hour01": "0.859",
 	"hour02": "0.521",
@@ -3017,7 +3017,7 @@
 }, {
 	"meterId": "1627671713169-44c8-765e",
 	"channel": 3,
-	"meterDescription": "Miami (1627671713169-216e-ed4e)",
+	"meterDescription": "Miami (9220)",
 	"isDst": false,
 	"hour01": "0.058",
 	"hour02": "0.693",
@@ -3046,7 +3046,7 @@
 }, {
 	"meterId": "1627671713169-4e47-b7c7",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671713169-dd84-1bb3)",
+	"meterDescription": "Tulsa (e0c2)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3075,7 +3075,7 @@
 }, {
 	"meterId": "1627671713169-eefc-e65e",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671713169-d625-6069)",
+	"meterDescription": "Minneapolis (bc11)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -3104,7 +3104,7 @@
 }, {
 	"meterId": "1627671713169-d804-fc63",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671713169-b69f-b6ec)",
+	"meterDescription": "Honolulu (e98f)",
 	"isDst": false,
 	"hour01": "0.666",
 	"hour02": "1.170",
@@ -3133,7 +3133,7 @@
 }, {
 	"meterId": "1627671713169-431c-0b0d",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671713169-f561-10ca)",
+	"meterDescription": "Arlington (00d5)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3162,7 +3162,7 @@
 }, {
 	"meterId": "1627671713169-8072-1e69",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671713169-d97a-309b)",
+	"meterDescription": "Wichita (9b67)",
 	"isDst": false,
 	"hour01": "1.479",
 	"hour02": "0.030",
@@ -3191,7 +3191,7 @@
 }, {
 	"meterId": "1627671713169-b62a-82a4",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671713169-621e-1945)",
+	"meterDescription": "St.Louis (d31d)",
 	"isDst": false,
 	"hour01": "-0.663",
 	"hour02": "-0.455",
@@ -3220,7 +3220,7 @@
 }, {
 	"meterId": "1627671713169-3367-1624",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671713169-f874-43d8)",
+	"meterDescription": "Raleigh (b3c7)",
 	"isDst": false,
 	"hour01": "0.456",
 	"hour02": "1.362",
@@ -3249,7 +3249,7 @@
 }, {
 	"meterId": "1627671713169-7bb5-c4d4",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671713169-324f-d79c)",
+	"meterDescription": "SantaAna (d5d7)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3278,7 +3278,7 @@
 }, {
 	"meterId": "1627671713169-944d-8d9a",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671713169-0638-75cb)",
+	"meterDescription": "Cincinnati (49cd)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -3307,7 +3307,7 @@
 }, {
 	"meterId": "1627671713169-f1bc-1354",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671713169-74a6-b28b)",
+	"meterDescription": "Anaheim (8113)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0.189",
@@ -3336,7 +3336,7 @@
 }, {
 	"meterId": "1627671713169-3622-c4df",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671713169-cad1-aeef)",
+	"meterDescription": "Tampa (fd22)",
 	"isDst": false,
 	"hour01": "-1.488",
 	"hour02": "-0.068",
@@ -3365,7 +3365,7 @@
 }, {
 	"meterId": "1627671713169-aba5-27ac",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671713169-818a-2cb9)",
+	"meterDescription": "Toledo (c555)",
 	"isDst": false,
 	"hour01": "1.444",
 	"hour02": "0.919",
@@ -3394,7 +3394,7 @@
 }, {
 	"meterId": "1627671713169-1166-510d",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671713169-bc18-5e22)",
+	"meterDescription": "Pittsburgh (6c00)",
 	"isDst": false,
 	"hour01": "1.032",
 	"hour02": "0.320",
@@ -3423,7 +3423,7 @@
 }, {
 	"meterId": "1627671713169-7ecd-fe05",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671713169-3b41-b613)",
+	"meterDescription": "Aurora (bd90)",
 	"isDst": false,
 	"hour01": "1.223",
 	"hour02": "0.993",
@@ -3452,7 +3452,7 @@
 }, {
 	"meterId": "1627671713169-3e57-7f51",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671713169-3b49-ab97)",
+	"meterDescription": "Bakersfield (a774)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3481,7 +3481,7 @@
 }, {
 	"meterId": "1627671882241-9321-049a",
 	"channel": 3,
-	"meterDescription": "New York (1627671882241-650c-64c1)",
+	"meterDescription": "NewYork (643d)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3510,7 +3510,7 @@
 }, {
 	"meterId": "1627671882241-e522-0cf7",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671882241-1eed-e30b)",
+	"meterDescription": "LosAngeles (35be)",
 	"isDst": false,
 	"hour01": "0.329",
 	"hour02": "0.756",
@@ -3539,7 +3539,7 @@
 }, {
 	"meterId": "1627671882241-7447-dcc4",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671882241-fbb1-798c)",
+	"meterDescription": "Chicago (c11e)",
 	"isDst": false,
 	"hour01": "1.432",
 	"hour02": "0.699",
@@ -3568,7 +3568,7 @@
 }, {
 	"meterId": "1627671882241-f1fb-93de",
 	"channel": 1,
-	"meterDescription": "Houston (1627671882241-482b-2a00)",
+	"meterDescription": "Houston (d593)",
 	"isDst": false,
 	"hour01": "0.731",
 	"hour02": "0.326",
@@ -3597,7 +3597,7 @@
 }, {
 	"meterId": "1627671882241-c9bb-3802",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671882241-74ed-84b0)",
+	"meterDescription": "Philadelphia (4a42)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -3626,7 +3626,7 @@
 }, {
 	"meterId": "1627671882241-2b30-910f",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671882241-aad6-0bac)",
+	"meterDescription": "Phoenix (172e)",
 	"isDst": false,
 	"hour01": "-0.550",
 	"hour02": "-0.111",
@@ -3655,7 +3655,7 @@
 }, {
 	"meterId": "1627671882241-f8b1-74fe",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671882241-cc7a-4195)",
+	"meterDescription": "SanDiego (75a2)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3684,7 +3684,7 @@
 }, {
 	"meterId": "1627671882241-69a2-0c75",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671882241-693a-1088)",
+	"meterDescription": "SanAntonio (ae6f)",
 	"isDst": false,
 	"hour01": "1.198",
 	"hour02": "0.406",
@@ -3713,7 +3713,7 @@
 }, {
 	"meterId": "1627671882241-bc80-d552",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671882241-6c90-13a7)",
+	"meterDescription": "Dallas (341c)",
 	"isDst": false,
 	"hour01": "0.760",
 	"hour02": "1.213",
@@ -3742,7 +3742,7 @@
 }, {
 	"meterId": "1627671882241-75a8-da88",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671882241-08b2-dcad)",
+	"meterDescription": "Detroit (2ab4)",
 	"isDst": false,
 	"hour01": "1.321",
 	"hour02": "0.438",
@@ -3771,7 +3771,7 @@
 }, {
 	"meterId": "1627671882241-d106-c080",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671882241-32f7-e58b)",
+	"meterDescription": "SanJose (8747)",
 	"isDst": false,
 	"hour01": "-0.722",
 	"hour02": "-0.126",
@@ -3800,7 +3800,7 @@
 }, {
 	"meterId": "1627671882241-a6b3-61c6",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671882241-d754-5f9c)",
+	"meterDescription": "Indianapolis (8c47)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -3829,7 +3829,7 @@
 }, {
 	"meterId": "1627671882241-daec-0dd6",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671882241-8293-0cb7)",
+	"meterDescription": "Jacksonville (cd04)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3858,7 +3858,7 @@
 }, {
 	"meterId": "1627671882241-c84b-693c",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671882241-5591-15db)",
+	"meterDescription": "SanFrancisco (6810)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -3887,7 +3887,7 @@
 }, {
 	"meterId": "1627671882241-2c85-567f",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671882241-8977-528d)",
+	"meterDescription": "Columbus (4e0a)",
 	"isDst": false,
 	"hour01": "0.516",
 	"hour02": "0.962",
@@ -3916,7 +3916,7 @@
 }, {
 	"meterId": "1627671882241-3c4e-23e2",
 	"channel": 1,
-	"meterDescription": "Austin (1627671882241-8334-a434)",
+	"meterDescription": "Austin (1f2a)",
 	"isDst": false,
 	"hour01": "-1.323",
 	"hour02": "-0.410",
@@ -3945,7 +3945,7 @@
 }, {
 	"meterId": "1627671882241-edda-ea23",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671882241-de16-72c9)",
+	"meterDescription": "Memphis (85c1)",
 	"isDst": false,
 	"hour01": "1.035",
 	"hour02": "0.425",
@@ -3974,7 +3974,7 @@
 }, {
 	"meterId": "1627671882241-7c33-c9e6",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671882241-13bc-c9e6)",
+	"meterDescription": "Baltimore (9c5a)",
 	"isDst": false,
 	"hour01": "0.561",
 	"hour02": "0.164",
@@ -4003,7 +4003,7 @@
 }, {
 	"meterId": "1627671882241-364a-8daf",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671882241-83db-c8aa)",
+	"meterDescription": "Charlotte (0a46)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -4032,7 +4032,7 @@
 }, {
 	"meterId": "1627671882241-0362-7370",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671882241-2f0b-b55f)",
+	"meterDescription": "FortWorth (96dd)",
 	"isDst": false,
 	"hour01": "0.401",
 	"hour02": "0.168",
@@ -4061,7 +4061,7 @@
 }, {
 	"meterId": "1627671882241-5f48-8ecc",
 	"channel": 1,
-	"meterDescription": "Boston (1627671882241-23c4-f92f)",
+	"meterDescription": "Boston (638d)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4090,7 +4090,7 @@
 }, {
 	"meterId": "1627671882241-daac-8046",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671882241-e5c9-f759)",
+	"meterDescription": "Milwaukee (c380)",
 	"isDst": false,
 	"hour01": "0.265",
 	"hour02": "0.572",
@@ -4119,7 +4119,7 @@
 }, {
 	"meterId": "1627671882241-048d-5855",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671882241-bb2a-9446)",
+	"meterDescription": "ElPaso (5f7c)",
 	"isDst": false,
 	"hour01": "0.873",
 	"hour02": "0.303",
@@ -4148,7 +4148,7 @@
 }, {
 	"meterId": "1627671882241-2ebc-2d23",
 	"channel": 1,
-	"meterDescription": "Washington (1627671882241-6334-c724)",
+	"meterDescription": "Washington (7eaf)",
 	"isDst": false,
 	"hour01": "0.260",
 	"hour02": "1.030",
@@ -4177,7 +4177,7 @@
 }, {
 	"meterId": "1627671882241-d4e7-b058",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671882241-2605-f670)",
+	"meterDescription": "Nashville-Davidson (df13)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4206,7 +4206,7 @@
 }, {
 	"meterId": "1627671882241-7941-db40",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671882241-5b4d-e84d)",
+	"meterDescription": "Seattle (5928)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -4235,7 +4235,7 @@
 }, {
 	"meterId": "1627671882241-5449-6f48",
 	"channel": 0,
-	"meterDescription": "Denver (1627671882241-b45d-a5e0)",
+	"meterDescription": "Denver (add8)",
 	"isDst": false,
 	"hour01": "1.124",
 	"hour02": "0.673",
@@ -4264,7 +4264,7 @@
 }, {
 	"meterId": "1627671882241-c9de-0385",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671882241-cb9e-da7c)",
+	"meterDescription": "LasVegas (1ac9)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4293,7 +4293,7 @@
 }, {
 	"meterId": "1627671882241-e2c4-41ed",
 	"channel": 0,
-	"meterDescription": "Portland (1627671882241-bfd4-6bc5)",
+	"meterDescription": "Portland (2e4e)",
 	"isDst": false,
 	"hour01": "0.330",
 	"hour02": "0.103",
@@ -4322,7 +4322,7 @@
 }, {
 	"meterId": "1627671882241-3a03-5d1b",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671882241-139b-9308)",
+	"meterDescription": "OklahomaCity (3d2b)",
 	"isDst": false,
 	"hour01": "0.670",
 	"hour02": "0.736",
@@ -4351,7 +4351,7 @@
 }, {
 	"meterId": "1627671882241-1255-ac91",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671882241-9344-cccb)",
+	"meterDescription": "Tucson (9338)",
 	"isDst": false,
 	"hour01": "-0.292",
 	"hour02": "-0.817",
@@ -4380,7 +4380,7 @@
 }, {
 	"meterId": "1627671882241-0097-e8fe",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671882241-af5c-7f86)",
+	"meterDescription": "Albuquerque (ab43)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0",
@@ -4409,7 +4409,7 @@
 }, {
 	"meterId": "1627671882241-197e-f8e6",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671882241-8a33-7aa2)",
+	"meterDescription": "Atlanta (7627)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -4438,7 +4438,7 @@
 }, {
 	"meterId": "1627671882241-7d41-6d0b",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671882241-5c02-52eb)",
+	"meterDescription": "LongBeach (3cb0)",
 	"isDst": false,
 	"hour01": "0.962",
 	"hour02": "0.181",
@@ -4467,7 +4467,7 @@
 }, {
 	"meterId": "1627671882241-b64a-d346",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671882241-3c3f-9ca7)",
+	"meterDescription": "KansasCity (0161)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4496,7 +4496,7 @@
 }, {
 	"meterId": "1627671882242-1286-d1b7",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671882242-e848-3aad)",
+	"meterDescription": "Fresno (ed5b)",
 	"isDst": false,
 	"hour01": "-1.137",
 	"hour02": "-0.982",
@@ -4525,7 +4525,7 @@
 }, {
 	"meterId": "1627671882242-7941-d3db",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671882242-dbef-eba6)",
+	"meterDescription": "NewOrleans (fc5f)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4554,7 +4554,7 @@
 }, {
 	"meterId": "1627671882242-0082-2681",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671882242-2a8f-9a93)",
+	"meterDescription": "Cleveland (c567)",
 	"isDst": false,
 	"hour01": "0.434",
 	"hour02": "1.259",
@@ -4583,7 +4583,7 @@
 }, {
 	"meterId": "1627671882242-4990-c348",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671882242-512d-9e86)",
+	"meterDescription": "Sacramento (6e49)",
 	"isDst": false,
 	"hour01": "1.211",
 	"hour02": "0.355",
@@ -4612,7 +4612,7 @@
 }, {
 	"meterId": "1627671882242-8eb4-9f81",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671882242-4782-14ce)",
+	"meterDescription": "Mesa (e120)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -4641,7 +4641,7 @@
 }, {
 	"meterId": "1627671882242-354d-a21b",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671882242-1a9a-ccad)",
+	"meterDescription": "VirginiaBeach (4fa0)",
 	"isDst": false,
 	"hour01": "-0.415",
 	"hour02": "-0.474",
@@ -4670,7 +4670,7 @@
 }, {
 	"meterId": "1627671882242-c0fe-e2ca",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671882242-42e5-18be)",
+	"meterDescription": "Omaha (92f4)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4699,7 +4699,7 @@
 }, {
 	"meterId": "1627671882242-261d-f011",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671882242-7256-e28a)",
+	"meterDescription": "ColoradoSprings (b689)",
 	"isDst": false,
 	"hour01": "0.211",
 	"hour02": "0.228",
@@ -4728,7 +4728,7 @@
 }, {
 	"meterId": "1627671882242-ca57-4a58",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671882242-246a-c621)",
+	"meterDescription": "Oakland (3a36)",
 	"isDst": false,
 	"hour01": "0.859",
 	"hour02": "0.521",
@@ -4757,7 +4757,7 @@
 }, {
 	"meterId": "1627671882242-158f-e5f2",
 	"channel": 3,
-	"meterDescription": "Miami (1627671882242-d7be-5114)",
+	"meterDescription": "Miami (7a86)",
 	"isDst": false,
 	"hour01": "0.058",
 	"hour02": "0.693",
@@ -4786,7 +4786,7 @@
 }, {
 	"meterId": "1627671882242-7c44-ee45",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671882242-422b-05fc)",
+	"meterDescription": "Tulsa (a3ff)",
 	"isDst": false,
 	"hour01": "-0.650",
 	"hour02": "-1.009",
@@ -4815,7 +4815,7 @@
 }, {
 	"meterId": "1627671882242-dd59-5e8e",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671882242-06b3-d13c)",
+	"meterDescription": "Minneapolis (609e)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -4844,7 +4844,7 @@
 }, {
 	"meterId": "1627671882242-4aaf-c5dd",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671882242-f0e5-6bbe)",
+	"meterDescription": "Honolulu (5c08)",
 	"isDst": false,
 	"hour01": "0.666",
 	"hour02": "1.170",
@@ -4873,7 +4873,7 @@
 }, {
 	"meterId": "1627671882242-211a-40bb",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671882242-cac3-23ce)",
+	"meterDescription": "Arlington (5993)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -4902,7 +4902,7 @@
 }, {
 	"meterId": "1627671882242-b42d-f12b",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671882242-d5ea-79a7)",
+	"meterDescription": "Wichita (8709)",
 	"isDst": false,
 	"hour01": "1.479",
 	"hour02": "0.030",
@@ -4931,7 +4931,7 @@
 }, {
 	"meterId": "1627671882242-7186-39c4",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671882242-330a-1173)",
+	"meterDescription": "St.Louis (92f9)",
 	"isDst": false,
 	"hour01": "-0.663",
 	"hour02": "-0.455",
@@ -4960,7 +4960,7 @@
 }, {
 	"meterId": "1627671882242-f104-c140",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671882242-4a46-c29c)",
+	"meterDescription": "Raleigh (7633)",
 	"isDst": false,
 	"hour01": "0.456",
 	"hour02": "1.362",
@@ -4989,7 +4989,7 @@
 }, {
 	"meterId": "1627671882242-aff7-6910",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671882242-d9c7-cd48)",
+	"meterDescription": "SantaAna (4687)",
 	"isDst": false,
 	"hour01": "0.225",
 	"hour02": "1.398",
@@ -5018,7 +5018,7 @@
 }, {
 	"meterId": "1627671882242-21f4-99f0",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671882242-e96b-917a)",
+	"meterDescription": "Cincinnati (3848)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -5047,7 +5047,7 @@
 }, {
 	"meterId": "1627671882242-fcf1-03c3",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671882242-e763-c7c2)",
+	"meterDescription": "Anaheim (5281)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0.189",
@@ -5076,7 +5076,7 @@
 }, {
 	"meterId": "1627671882242-7464-6c1f",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671882242-c6ee-ad40)",
+	"meterDescription": "Tampa (ff2f)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5105,7 +5105,7 @@
 }, {
 	"meterId": "1627671882242-c62f-d0d9",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671882242-5712-cb70)",
+	"meterDescription": "Toledo (f816)",
 	"isDst": false,
 	"hour01": "1.444",
 	"hour02": "0.919",
@@ -5134,7 +5134,7 @@
 }, {
 	"meterId": "1627671882242-ec61-53c3",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671882242-4a95-19ac)",
+	"meterDescription": "Pittsburgh (a33f)",
 	"isDst": false,
 	"hour01": "1.032",
 	"hour02": "0.320",
@@ -5163,7 +5163,7 @@
 }, {
 	"meterId": "1627671882242-9784-9117",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671882242-6d99-7b9e)",
+	"meterDescription": "Aurora (d74f)",
 	"isDst": false,
 	"hour01": "1.223",
 	"hour02": "0.993",
@@ -5192,7 +5192,7 @@
 }, {
 	"meterId": "1627671882242-f181-e8f0",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671882242-8a49-4c25)",
+	"meterDescription": "Bakersfield (33fe)",
 	"isDst": false,
 	"hour01": "0.061",
 	"hour02": "0.573",
@@ -5221,7 +5221,7 @@
 }, {
 	"meterId": "1627671898302-14d5-9e31",
 	"channel": 3,
-	"meterDescription": "New York (1627671898302-6ce4-d541)",
+	"meterDescription": "NewYork (62d6)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5250,7 +5250,7 @@
 }, {
 	"meterId": "1627671898302-62cc-eb76",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671898302-c425-7476)",
+	"meterDescription": "LosAngeles (90c0)",
 	"isDst": false,
 	"hour01": "0.329",
 	"hour02": "0.756",
@@ -5279,7 +5279,7 @@
 }, {
 	"meterId": "1627671898302-1386-bdeb",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671898302-d189-5a5a)",
+	"meterDescription": "Chicago (1346)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5308,7 +5308,7 @@
 }, {
 	"meterId": "1627671898302-bb8a-7e7e",
 	"channel": 1,
-	"meterDescription": "Houston (1627671898302-de1a-a284)",
+	"meterDescription": "Houston (77ed)",
 	"isDst": false,
 	"hour01": "0.731",
 	"hour02": "0.326",
@@ -5337,7 +5337,7 @@
 }, {
 	"meterId": "1627671898302-e15e-3a5f",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671898302-7799-63b2)",
+	"meterDescription": "Philadelphia (14b4)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -5366,7 +5366,7 @@
 }, {
 	"meterId": "1627671898302-4bfa-0935",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671898302-5fb6-7184)",
+	"meterDescription": "Phoenix (ce68)",
 	"isDst": false,
 	"hour01": "-0.550",
 	"hour02": "-0.111",
@@ -5395,7 +5395,7 @@
 }, {
 	"meterId": "1627671898302-9680-6efb",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671898302-765e-7c57)",
+	"meterDescription": "SanDiego (aa7f)",
 	"isDst": false,
 	"hour01": "0.039",
 	"hour02": "0.373",
@@ -5424,7 +5424,7 @@
 }, {
 	"meterId": "1627671898302-03f3-df04",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671898302-8301-f645)",
+	"meterDescription": "SanAntonio (e2a1)",
 	"isDst": false,
 	"hour01": "1.198",
 	"hour02": "0.406",
@@ -5453,7 +5453,7 @@
 }, {
 	"meterId": "1627671898302-09f8-f776",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671898302-a7f6-91f6)",
+	"meterDescription": "Dallas (9874)",
 	"isDst": false,
 	"hour01": "0.760",
 	"hour02": "1.213",
@@ -5482,7 +5482,7 @@
 }, {
 	"meterId": "1627671898302-71b6-49a9",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671898302-ac16-c186)",
+	"meterDescription": "Detroit (3f39)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5511,7 +5511,7 @@
 }, {
 	"meterId": "1627671898302-2a10-9410",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671898302-5270-f741)",
+	"meterDescription": "SanJose (235f)",
 	"isDst": false,
 	"hour01": "-0.722",
 	"hour02": "-0.126",
@@ -5540,7 +5540,7 @@
 }, {
 	"meterId": "1627671898302-ad74-b430",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671898302-7650-01a4)",
+	"meterDescription": "Indianapolis (c3f3)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -5569,7 +5569,7 @@
 }, {
 	"meterId": "1627671898302-ec7a-fad7",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671898302-8382-4757)",
+	"meterDescription": "Jacksonville (9251)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5598,7 +5598,7 @@
 }, {
 	"meterId": "1627671898302-7e0c-c539",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671898302-c06e-6ea9)",
+	"meterDescription": "SanFrancisco (ee13)",
 	"isDst": false,
 	"hour01": "0.847",
 	"hour02": "0.719",
@@ -5627,7 +5627,7 @@
 }, {
 	"meterId": "1627671898302-5ffd-c18c",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671898302-2000-c0ea)",
+	"meterDescription": "Columbus (0839)",
 	"isDst": false,
 	"hour01": "0.516",
 	"hour02": "0.962",
@@ -5656,7 +5656,7 @@
 }, {
 	"meterId": "1627671898302-932e-305c",
 	"channel": 1,
-	"meterDescription": "Austin (1627671898302-32de-daf9)",
+	"meterDescription": "Austin (7974)",
 	"isDst": false,
 	"hour01": "-1.323",
 	"hour02": "-0.410",
@@ -5685,7 +5685,7 @@
 }, {
 	"meterId": "1627671898302-7b37-7234",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671898302-60db-9cc0)",
+	"meterDescription": "Memphis (83dd)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5714,7 +5714,7 @@
 }, {
 	"meterId": "1627671898302-c77d-81e2",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671898302-f358-2e4f)",
+	"meterDescription": "Baltimore (1c9d)",
 	"isDst": false,
 	"hour01": "0.561",
 	"hour02": "0.164",
@@ -5743,7 +5743,7 @@
 }, {
 	"meterId": "1627671898302-f344-43cc",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671898302-fb90-9e2e)",
+	"meterDescription": "Charlotte (c589)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -5772,7 +5772,7 @@
 }, {
 	"meterId": "1627671898302-2a12-f186",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671898302-74a5-80e4)",
+	"meterDescription": "FortWorth (769d)",
 	"isDst": false,
 	"hour01": "0.401",
 	"hour02": "0.168",
@@ -5801,7 +5801,7 @@
 }, {
 	"meterId": "1627671898302-07a1-400e",
 	"channel": 1,
-	"meterDescription": "Boston (1627671898302-cd66-2009)",
+	"meterDescription": "Boston (3302)",
 	"isDst": false,
 	"hour01": "-1.412",
 	"hour02": "-1.303",
@@ -5830,7 +5830,7 @@
 }, {
 	"meterId": "1627671898302-7a5b-912e",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671898302-3e18-0331)",
+	"meterDescription": "Milwaukee (4cd6)",
 	"isDst": false,
 	"hour01": "0.265",
 	"hour02": "0.572",
@@ -5859,7 +5859,7 @@
 }, {
 	"meterId": "1627671898302-4ed9-1a94",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671898302-287b-ea00)",
+	"meterDescription": "ElPaso (4b7a)",
 	"isDst": false,
 	"hour01": "0.873",
 	"hour02": "0.303",
@@ -5888,7 +5888,7 @@
 }, {
 	"meterId": "1627671898302-e06b-209a",
 	"channel": 1,
-	"meterDescription": "Washington (1627671898302-0c5f-391b)",
+	"meterDescription": "Washington (3c50)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5917,7 +5917,7 @@
 }, {
 	"meterId": "1627671898302-e2e7-a5d3",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671898302-1245-ae93)",
+	"meterDescription": "Nashville-Davidson (8153)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -5946,7 +5946,7 @@
 }, {
 	"meterId": "1627671898302-504c-3c2b",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671898302-1abb-9663)",
+	"meterDescription": "Seattle (39a3)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -5975,7 +5975,7 @@
 }, {
 	"meterId": "1627671898303-d25d-3256",
 	"channel": 0,
-	"meterDescription": "Denver (1627671898303-71a1-fc5a)",
+	"meterDescription": "Denver (00ba)",
 	"isDst": false,
 	"hour01": "1.124",
 	"hour02": "0.673",
@@ -6004,7 +6004,7 @@
 }, {
 	"meterId": "1627671898303-2113-38e0",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671898303-6b14-64b3)",
+	"meterDescription": "LasVegas (5a4e)",
 	"isDst": false,
 	"hour01": "0.122",
 	"hour02": "0.811",
@@ -6033,7 +6033,7 @@
 }, {
 	"meterId": "1627671898303-515e-96f9",
 	"channel": 0,
-	"meterDescription": "Portland (1627671898303-eac2-6ec3)",
+	"meterDescription": "Portland (ee16)",
 	"isDst": false,
 	"hour01": "0.330",
 	"hour02": "0.103",
@@ -6062,7 +6062,7 @@
 }, {
 	"meterId": "1627671898303-366f-b33f",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671898303-7b7e-eec0)",
+	"meterDescription": "OklahomaCity (02ce)",
 	"isDst": false,
 	"hour01": "0.670",
 	"hour02": "0.736",
@@ -6091,7 +6091,7 @@
 }, {
 	"meterId": "1627671898303-fe72-1406",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671898303-61e6-aacc)",
+	"meterDescription": "Tucson (892c)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6120,7 +6120,7 @@
 }, {
 	"meterId": "1627671898303-ef7f-f552",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671898303-a848-32c5)",
+	"meterDescription": "Albuquerque (2df9)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0",
@@ -6149,7 +6149,7 @@
 }, {
 	"meterId": "1627671898303-9eba-99c2",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671898303-cdac-d3f4)",
+	"meterDescription": "Atlanta (216a)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -6178,7 +6178,7 @@
 }, {
 	"meterId": "1627671898303-e3dd-6282",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671898303-187f-0ce7)",
+	"meterDescription": "LongBeach (bdb8)",
 	"isDst": false,
 	"hour01": "0.962",
 	"hour02": "0.181",
@@ -6207,7 +6207,7 @@
 }, {
 	"meterId": "1627671898303-ec4e-0d16",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671898303-5688-dd0e)",
+	"meterDescription": "KansasCity (1f1c)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.094",
@@ -6236,7 +6236,7 @@
 }, {
 	"meterId": "1627671898303-244c-3c89",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671898303-e571-0921)",
+	"meterDescription": "Fresno (52b3)",
 	"isDst": false,
 	"hour01": "-1.137",
 	"hour02": "-0.982",
@@ -6265,7 +6265,7 @@
 }, {
 	"meterId": "1627671898303-53be-8515",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671898303-5206-15fa)",
+	"meterDescription": "NewOrleans (eecf)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6294,7 +6294,7 @@
 }, {
 	"meterId": "1627671898303-4a20-9d16",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671898303-1d19-7f1c)",
+	"meterDescription": "Cleveland (7f66)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6323,7 +6323,7 @@
 }, {
 	"meterId": "1627671898303-7a45-dd1a",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671898303-5fcc-1661)",
+	"meterDescription": "Sacramento (345d)",
 	"isDst": false,
 	"hour01": "1.211",
 	"hour02": "0.355",
@@ -6352,7 +6352,7 @@
 }, {
 	"meterId": "1627671898303-74ef-fe2f",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671898303-ea27-36a6)",
+	"meterDescription": "Mesa (497a)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -6381,7 +6381,7 @@
 }, {
 	"meterId": "1627671898303-9c8e-0926",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671898303-7005-96c0)",
+	"meterDescription": "VirginiaBeach (4cb1)",
 	"isDst": false,
 	"hour01": "-0.415",
 	"hour02": "-0.474",
@@ -6410,7 +6410,7 @@
 }, {
 	"meterId": "1627671898303-ee0e-a788",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671898303-2b61-d318)",
+	"meterDescription": "Omaha (a7d2)",
 	"isDst": false,
 	"hour01": "0.053",
 	"hour02": "0.210",
@@ -6439,7 +6439,7 @@
 }, {
 	"meterId": "1627671898303-4c0d-ea99",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671898303-51bb-ad7d)",
+	"meterDescription": "ColoradoSprings (3444)",
 	"isDst": false,
 	"hour01": "0.211",
 	"hour02": "0.228",
@@ -6468,7 +6468,7 @@
 }, {
 	"meterId": "1627671898303-d6c2-013a",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671898303-f090-57ab)",
+	"meterDescription": "Oakland (b0ba)",
 	"isDst": false,
 	"hour01": "0.859",
 	"hour02": "0.521",
@@ -6497,7 +6497,7 @@
 }, {
 	"meterId": "1627671898303-dcb1-ead4",
 	"channel": 3,
-	"meterDescription": "Miami (1627671898303-b8f8-3d27)",
+	"meterDescription": "Miami (aa8f)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6526,7 +6526,7 @@
 }, {
 	"meterId": "1627671898303-2d9e-99c6",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671898303-944a-3199)",
+	"meterDescription": "Tulsa (2e7d)",
 	"isDst": false,
 	"hour01": "-0.650",
 	"hour02": "-1.009",
@@ -6555,7 +6555,7 @@
 }, {
 	"meterId": "1627671898303-e8e0-6bf9",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671898303-e2d2-90b5)",
+	"meterDescription": "Minneapolis (d66f)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -6584,7 +6584,7 @@
 }, {
 	"meterId": "1627671898303-469d-d6b9",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671898303-f214-0c38)",
+	"meterDescription": "Honolulu (e3fe)",
 	"isDst": false,
 	"hour01": "0.666",
 	"hour02": "1.170",
@@ -6613,7 +6613,7 @@
 }, {
 	"meterId": "1627671898303-480d-1f5e",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671898303-d5ba-5599)",
+	"meterDescription": "Arlington (d5ac)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6642,7 +6642,7 @@
 }, {
 	"meterId": "1627671898303-9ad8-5794",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671898303-7331-849c)",
+	"meterDescription": "Wichita (7060)",
 	"isDst": false,
 	"hour01": "1.479",
 	"hour02": "0.030",
@@ -6671,7 +6671,7 @@
 }, {
 	"meterId": "1627671898303-068e-ed5f",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671898303-5973-4849)",
+	"meterDescription": "St.Louis (5088)",
 	"isDst": false,
 	"hour01": "-0.663",
 	"hour02": "-0.455",
@@ -6700,7 +6700,7 @@
 }, {
 	"meterId": "1627671898303-742f-0226",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671898303-acfb-7755)",
+	"meterDescription": "Raleigh (768c)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6729,7 +6729,7 @@
 }, {
 	"meterId": "1627671898303-2778-6de9",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671898303-16b0-ab19)",
+	"meterDescription": "SantaAna (3ecd)",
 	"isDst": false,
 	"hour01": "0.225",
 	"hour02": "1.398",
@@ -6758,7 +6758,7 @@
 }, {
 	"meterId": "1627671898303-3bd9-351b",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671898303-116a-b278)",
+	"meterDescription": "Cincinnati (a7d3)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -6787,7 +6787,7 @@
 }, {
 	"meterId": "1627671898303-355e-7e1a",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671898303-b167-56ca)",
+	"meterDescription": "Anaheim (7636)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0.189",
@@ -6816,7 +6816,7 @@
 }, {
 	"meterId": "1627671898303-67f5-edb2",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671898303-5bbc-8300)",
+	"meterDescription": "Tampa (db5a)",
 	"isDst": false,
 	"hour01": "-1.488",
 	"hour02": "-0.068",
@@ -6845,7 +6845,7 @@
 }, {
 	"meterId": "1627671898303-0301-3164",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671898303-7161-771f)",
+	"meterDescription": "Toledo (df02)",
 	"isDst": false,
 	"hour01": "1.444",
 	"hour02": "0.919",
@@ -6874,7 +6874,7 @@
 }, {
 	"meterId": "1627671898303-5b31-5c18",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671898303-2939-0358)",
+	"meterDescription": "Pittsburgh (4143)",
 	"isDst": false,
 	"hour01": "1.032",
 	"hour02": "0.320",
@@ -6903,7 +6903,7 @@
 }, {
 	"meterId": "1627671898303-0805-783c",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671898303-3cd1-8aee)",
+	"meterDescription": "Aurora (24ef)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6932,7 +6932,7 @@
 }, {
 	"meterId": "1627671898303-36e7-6390",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671898303-1991-1200)",
+	"meterDescription": "Bakersfield (725a)",
 	"isDst": false,
 	"hour01": "0.061",
 	"hour02": "0.573",
@@ -6961,7 +6961,7 @@
 }, {
 	"meterId": "1627671911806-ac12-6103",
 	"channel": 3,
-	"meterDescription": "New York (1627671911806-d8ad-1bb1)",
+	"meterDescription": "NewYork (68c9)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -6990,7 +6990,7 @@
 }, {
 	"meterId": "1627671911806-96b9-fbd8",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671911806-c3f2-931a)",
+	"meterDescription": "LosAngeles (69d5)",
 	"isDst": false,
 	"hour01": "0.329",
 	"hour02": "0.756",
@@ -7019,7 +7019,7 @@
 }, {
 	"meterId": "1627671911806-9eab-ae71",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671911806-122b-b88f)",
+	"meterDescription": "Chicago (8f45)",
 	"isDst": false,
 	"hour01": "1.432",
 	"hour02": "0.699",
@@ -7048,7 +7048,7 @@
 }, {
 	"meterId": "1627671911806-21bb-93c4",
 	"channel": 1,
-	"meterDescription": "Houston (1627671911806-c351-e0f8)",
+	"meterDescription": "Houston (ddbf)",
 	"isDst": false,
 	"hour01": "0.731",
 	"hour02": "0.326",
@@ -7077,7 +7077,7 @@
 }, {
 	"meterId": "1627671911806-67df-8f1a",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671911806-03fb-9da9)",
+	"meterDescription": "Philadelphia (d790)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -7106,7 +7106,7 @@
 }, {
 	"meterId": "1627671911806-27c7-b0bc",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671911806-d3f8-161d)",
+	"meterDescription": "Phoenix (5d17)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7135,7 +7135,7 @@
 }, {
 	"meterId": "1627671911806-1aa5-fae7",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671911806-1e5d-ba1b)",
+	"meterDescription": "SanDiego (9300)",
 	"isDst": false,
 	"hour01": "0.039",
 	"hour02": "0.373",
@@ -7164,7 +7164,7 @@
 }, {
 	"meterId": "1627671911806-23c3-9ebc",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671911806-2a4d-b019)",
+	"meterDescription": "SanAntonio (e239)",
 	"isDst": false,
 	"hour01": "1.198",
 	"hour02": "0.406",
@@ -7193,7 +7193,7 @@
 }, {
 	"meterId": "1627671911806-6d41-c318",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671911806-2653-8ea3)",
+	"meterDescription": "Dallas (2ecf)",
 	"isDst": false,
 	"hour01": "0.760",
 	"hour02": "1.213",
@@ -7222,7 +7222,7 @@
 }, {
 	"meterId": "1627671911806-a5a7-2af1",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671911806-e7bd-b2e1)",
+	"meterDescription": "Detroit (5f75)",
 	"isDst": false,
 	"hour01": "1.321",
 	"hour02": "0.438",
@@ -7251,7 +7251,7 @@
 }, {
 	"meterId": "1627671911806-4602-a856",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671911806-5e17-e075)",
+	"meterDescription": "SanJose (5087)",
 	"isDst": false,
 	"hour01": "-0.722",
 	"hour02": "-0.126",
@@ -7280,7 +7280,7 @@
 }, {
 	"meterId": "1627671911806-491b-05ac",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671911806-8ec5-0e3a)",
+	"meterDescription": "Indianapolis (c5f3)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -7309,7 +7309,7 @@
 }, {
 	"meterId": "1627671911806-ffbc-31de",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671911806-d7b1-88dd)",
+	"meterDescription": "Jacksonville (74bc)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7338,7 +7338,7 @@
 }, {
 	"meterId": "1627671911806-d445-ca73",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671911806-ba4a-68e2)",
+	"meterDescription": "SanFrancisco (05eb)",
 	"isDst": false,
 	"hour01": "0.847",
 	"hour02": "0.719",
@@ -7367,7 +7367,7 @@
 }, {
 	"meterId": "1627671911806-3101-c129",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671911806-b042-e9d3)",
+	"meterDescription": "Columbus (162f)",
 	"isDst": false,
 	"hour01": "0.516",
 	"hour02": "0.962",
@@ -7396,7 +7396,7 @@
 }, {
 	"meterId": "1627671911806-fb8d-a4ab",
 	"channel": 1,
-	"meterDescription": "Austin (1627671911806-497a-4c09)",
+	"meterDescription": "Austin (58c8)",
 	"isDst": false,
 	"hour01": "-1.323",
 	"hour02": "-0.410",
@@ -7425,7 +7425,7 @@
 }, {
 	"meterId": "1627671911806-1220-0d7c",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671911806-57a3-594c)",
+	"meterDescription": "Memphis (72fc)",
 	"isDst": false,
 	"hour01": "1.035",
 	"hour02": "0.425",
@@ -7454,7 +7454,7 @@
 }, {
 	"meterId": "1627671911806-4c8e-5a1b",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671911806-485e-7ec1)",
+	"meterDescription": "Baltimore (2112)",
 	"isDst": false,
 	"hour01": "0.561",
 	"hour02": "0.164",
@@ -7483,7 +7483,7 @@
 }, {
 	"meterId": "1627671911806-a168-f475",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671911806-2e50-3ffd)",
+	"meterDescription": "Charlotte (8a9a)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -7512,7 +7512,7 @@
 }, {
 	"meterId": "1627671911806-6cb6-2345",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671911806-b7cb-eccb)",
+	"meterDescription": "FortWorth (f539)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7541,7 +7541,7 @@
 }, {
 	"meterId": "1627671911806-5020-fda6",
 	"channel": 1,
-	"meterDescription": "Boston (1627671911806-3d21-2365)",
+	"meterDescription": "Boston (a68f)",
 	"isDst": false,
 	"hour01": "-1.412",
 	"hour02": "-1.303",
@@ -7570,7 +7570,7 @@
 }, {
 	"meterId": "1627671911806-7e0b-a172",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671911806-b5ca-b012)",
+	"meterDescription": "Milwaukee (bdf6)",
 	"isDst": false,
 	"hour01": "0.265",
 	"hour02": "0.572",
@@ -7599,7 +7599,7 @@
 }, {
 	"meterId": "1627671911806-6595-5490",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671911806-9942-1a06)",
+	"meterDescription": "ElPaso (9a15)",
 	"isDst": false,
 	"hour01": "0.873",
 	"hour02": "0.303",
@@ -7628,7 +7628,7 @@
 }, {
 	"meterId": "1627671911806-5aa8-eccc",
 	"channel": 1,
-	"meterDescription": "Washington (1627671911806-32c6-8f01)",
+	"meterDescription": "Washington (1a0a)",
 	"isDst": false,
 	"hour01": "0.260",
 	"hour02": "1.030",
@@ -7657,7 +7657,7 @@
 }, {
 	"meterId": "1627671911806-cba0-b9cc",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671911806-2845-b75e)",
+	"meterDescription": "Nashville-Davidson (5ea4)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7686,7 +7686,7 @@
 }, {
 	"meterId": "1627671911806-7a61-f986",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671911806-101b-d3db)",
+	"meterDescription": "Seattle (365b)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -7715,7 +7715,7 @@
 }, {
 	"meterId": "1627671911806-7745-2873",
 	"channel": 0,
-	"meterDescription": "Denver (1627671911806-d9f5-9a85)",
+	"meterDescription": "Denver (cd53)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7744,7 +7744,7 @@
 }, {
 	"meterId": "1627671911806-5e86-321c",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671911806-a941-a065)",
+	"meterDescription": "LasVegas (9d57)",
 	"isDst": false,
 	"hour01": "0.122",
 	"hour02": "0.811",
@@ -7773,7 +7773,7 @@
 }, {
 	"meterId": "1627671911806-a83c-79a5",
 	"channel": 0,
-	"meterDescription": "Portland (1627671911806-20be-f7d5)",
+	"meterDescription": "Portland (6177)",
 	"isDst": false,
 	"hour01": "0.330",
 	"hour02": "0.103",
@@ -7802,7 +7802,7 @@
 }, {
 	"meterId": "1627671911806-abf7-0192",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671911806-3236-efca)",
+	"meterDescription": "OklahomaCity (ab33)",
 	"isDst": false,
 	"hour01": "0.670",
 	"hour02": "0.736",
@@ -7831,7 +7831,7 @@
 }, {
 	"meterId": "1627671911806-5f8d-8503",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671911806-923a-a434)",
+	"meterDescription": "Tucson (34d3)",
 	"isDst": false,
 	"hour01": "-0.292",
 	"hour02": "-0.817",
@@ -7860,7 +7860,7 @@
 }, {
 	"meterId": "1627671911806-1f27-5da0",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671911806-a4ed-a880)",
+	"meterDescription": "Albuquerque (80df)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0",
@@ -7889,7 +7889,7 @@
 }, {
 	"meterId": "1627671911806-b636-a135",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671911806-cd12-b614)",
+	"meterDescription": "Atlanta (bead)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -7918,7 +7918,7 @@
 }, {
 	"meterId": "1627671911807-c3f0-e508",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671911807-697e-e816)",
+	"meterDescription": "LongBeach (aec8)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -7947,7 +7947,7 @@
 }, {
 	"meterId": "1627671911807-47c6-8746",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671911807-8f07-fc65)",
+	"meterDescription": "KansasCity (6d31)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.094",
@@ -7976,7 +7976,7 @@
 }, {
 	"meterId": "1627671911807-4ade-ba15",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671911807-32f2-49da)",
+	"meterDescription": "Fresno (dffc)",
 	"isDst": false,
 	"hour01": "-1.137",
 	"hour02": "-0.982",
@@ -8005,7 +8005,7 @@
 }, {
 	"meterId": "1627671911807-542f-7e56",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671911807-27ff-50e6)",
+	"meterDescription": "NewOrleans (5dbb)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8034,7 +8034,7 @@
 }, {
 	"meterId": "1627671911807-05b7-7c1e",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671911807-305a-1f23)",
+	"meterDescription": "Cleveland (f48f)",
 	"isDst": false,
 	"hour01": "0.434",
 	"hour02": "1.259",
@@ -8063,7 +8063,7 @@
 }, {
 	"meterId": "1627671911807-5ecb-7276",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671911807-d8f5-61f5)",
+	"meterDescription": "Sacramento (e165)",
 	"isDst": false,
 	"hour01": "1.211",
 	"hour02": "0.355",
@@ -8092,7 +8092,7 @@
 }, {
 	"meterId": "1627671911807-206b-0432",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671911807-bee7-56d5)",
+	"meterDescription": "Mesa (38a0)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -8121,7 +8121,7 @@
 }, {
 	"meterId": "1627671911807-91af-054c",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671911807-1ddb-50bd)",
+	"meterDescription": "VirginiaBeach (3497)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8150,7 +8150,7 @@
 }, {
 	"meterId": "1627671911807-c4ab-bb3a",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671911807-70cb-fed6)",
+	"meterDescription": "Omaha (3a13)",
 	"isDst": false,
 	"hour01": "0.053",
 	"hour02": "0.210",
@@ -8179,7 +8179,7 @@
 }, {
 	"meterId": "1627671911807-7dee-7db8",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671911807-2d82-49ad)",
+	"meterDescription": "ColoradoSprings (fcc7)",
 	"isDst": false,
 	"hour01": "0.211",
 	"hour02": "0.228",
@@ -8208,7 +8208,7 @@
 }, {
 	"meterId": "1627671911807-fae4-6444",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671911807-fa66-fe07)",
+	"meterDescription": "Oakland (806d)",
 	"isDst": false,
 	"hour01": "0.859",
 	"hour02": "0.521",
@@ -8237,7 +8237,7 @@
 }, {
 	"meterId": "1627671911807-b52e-7b46",
 	"channel": 3,
-	"meterDescription": "Miami (1627671911807-b760-e904)",
+	"meterDescription": "Miami (6b18)",
 	"isDst": false,
 	"hour01": "0.058",
 	"hour02": "0.693",
@@ -8266,7 +8266,7 @@
 }, {
 	"meterId": "1627671911807-640f-b6cb",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671911807-2949-808a)",
+	"meterDescription": "Tulsa (ec1c)",
 	"isDst": false,
 	"hour01": "-0.650",
 	"hour02": "-1.009",
@@ -8295,7 +8295,7 @@
 }, {
 	"meterId": "1627671911807-6e8b-84f3",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671911807-6f95-c6e9)",
+	"meterDescription": "Minneapolis (8343)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -8324,7 +8324,7 @@
 }, {
 	"meterId": "1627671911807-1cbb-0230",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671911807-bb94-72ee)",
+	"meterDescription": "Honolulu (7e1a)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8353,7 +8353,7 @@
 }, {
 	"meterId": "1627671911807-f8d0-4668",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671911807-98b6-6d29)",
+	"meterDescription": "Arlington (b0ee)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8382,7 +8382,7 @@
 }, {
 	"meterId": "1627671911807-b801-e431",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671911807-5b6b-a0e1)",
+	"meterDescription": "Wichita (c33b)",
 	"isDst": false,
 	"hour01": "1.479",
 	"hour02": "0.030",
@@ -8411,7 +8411,7 @@
 }, {
 	"meterId": "1627671911807-9757-a65f",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671911807-32c0-1cc5)",
+	"meterDescription": "St.Louis (dfd7)",
 	"isDst": false,
 	"hour01": "-0.663",
 	"hour02": "-0.455",
@@ -8440,7 +8440,7 @@
 }, {
 	"meterId": "1627671911807-6140-1cff",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671911807-edc9-6e39)",
+	"meterDescription": "Raleigh (769e)",
 	"isDst": false,
 	"hour01": "0.456",
 	"hour02": "1.362",
@@ -8469,7 +8469,7 @@
 }, {
 	"meterId": "1627671911807-e1d5-cc59",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671911807-8b06-9388)",
+	"meterDescription": "SantaAna (732b)",
 	"isDst": false,
 	"hour01": "0.225",
 	"hour02": "1.398",
@@ -8498,7 +8498,7 @@
 }, {
 	"meterId": "1627671911807-4bea-013e",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671911807-bedc-12cc)",
+	"meterDescription": "Cincinnati (554b)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -8527,7 +8527,7 @@
 }, {
 	"meterId": "1627671911807-3915-8d61",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671911807-ba0d-8442)",
+	"meterDescription": "Anaheim (05ab)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8556,7 +8556,7 @@
 }, {
 	"meterId": "1627671911807-97e9-2d45",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671911807-69ed-fc7c)",
+	"meterDescription": "Tampa (f24a)",
 	"isDst": false,
 	"hour01": "-1.488",
 	"hour02": "-0.068",
@@ -8585,7 +8585,7 @@
 }, {
 	"meterId": "1627671911807-0940-d320",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671911807-2373-a82b)",
+	"meterDescription": "Toledo (edf1)",
 	"isDst": false,
 	"hour01": "1.444",
 	"hour02": "0.919",
@@ -8614,7 +8614,7 @@
 }, {
 	"meterId": "1627671911807-f0ca-57cb",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671911807-f64a-3cb9)",
+	"meterDescription": "Pittsburgh (c678)",
 	"isDst": false,
 	"hour01": "1.032",
 	"hour02": "0.320",
@@ -8643,7 +8643,7 @@
 }, {
 	"meterId": "1627671911807-f52a-859a",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671911807-d617-4407)",
+	"meterDescription": "Aurora (a43c)",
 	"isDst": false,
 	"hour01": "1.223",
 	"hour02": "0.993",
@@ -8672,7 +8672,7 @@
 }, {
 	"meterId": "1627671911807-eccc-9bb5",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671911807-e99c-6bbd)",
+	"meterDescription": "Bakersfield (9ba8)",
 	"isDst": false,
 	"hour01": "0.061",
 	"hour02": "0.573",
@@ -8701,7 +8701,7 @@
 }, {
 	"meterId": "1627671912754-e529-eed8",
 	"channel": 3,
-	"meterDescription": "New York (1627671912754-8c01-efb8)",
+	"meterDescription": "NewYork (fba8)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8730,7 +8730,7 @@
 }, {
 	"meterId": "1627671912754-08c5-4bdc",
 	"channel": 1,
-	"meterDescription": "Los Angeles (1627671912754-f2ff-3a42)",
+	"meterDescription": "LosAngeles (7eff)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8759,7 +8759,7 @@
 }, {
 	"meterId": "1627671912754-2bda-9662",
 	"channel": 1,
-	"meterDescription": "Chicago (1627671912754-3be2-3054)",
+	"meterDescription": "Chicago (204a)",
 	"isDst": false,
 	"hour01": "1.432",
 	"hour02": "0.699",
@@ -8788,7 +8788,7 @@
 }, {
 	"meterId": "1627671912754-6026-40f6",
 	"channel": 1,
-	"meterDescription": "Houston (1627671912754-15ef-38e8)",
+	"meterDescription": "Houston (123a)",
 	"isDst": false,
 	"hour01": "0.731",
 	"hour02": "0.326",
@@ -8817,7 +8817,7 @@
 }, {
 	"meterId": "1627671912754-b60b-f76d",
 	"channel": 1,
-	"meterDescription": "Philadelphia (1627671912754-0a7b-d0d7)",
+	"meterDescription": "Philadelphia (60c9)",
 	"isDst": false,
 	"hour01": "0.279",
 	"hour02": "0.503",
@@ -8846,7 +8846,7 @@
 }, {
 	"meterId": "1627671912754-569d-9657",
 	"channel": 1,
-	"meterDescription": "Phoenix (1627671912754-0513-a84d)",
+	"meterDescription": "Phoenix (4314)",
 	"isDst": false,
 	"hour01": "-0.550",
 	"hour02": "-0.111",
@@ -8875,7 +8875,7 @@
 }, {
 	"meterId": "1627671912754-1781-8a1a",
 	"channel": 1,
-	"meterDescription": "San Diego (1627671912754-547f-28df)",
+	"meterDescription": "SanDiego (3e3c)",
 	"isDst": false,
 	"hour01": "0.039",
 	"hour02": "0.373",
@@ -8904,7 +8904,7 @@
 }, {
 	"meterId": "1627671912754-51e0-356e",
 	"channel": 1,
-	"meterDescription": "San Antonio (1627671912754-acf1-9165)",
+	"meterDescription": "SanAntonio (1b51)",
 	"isDst": false,
 	"hour01": "1.198",
 	"hour02": "0.406",
@@ -8933,7 +8933,7 @@
 }, {
 	"meterId": "1627671912754-59ee-5405",
 	"channel": 1,
-	"meterDescription": "Dallas (1627671912754-38fa-791b)",
+	"meterDescription": "Dallas (3828)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -8962,7 +8962,7 @@
 }, {
 	"meterId": "1627671912754-d8fc-a29f",
 	"channel": 1,
-	"meterDescription": "Detroit (1627671912754-727e-d1c5)",
+	"meterDescription": "Detroit (b12b)",
 	"isDst": false,
 	"hour01": "1.321",
 	"hour02": "0.438",
@@ -8991,7 +8991,7 @@
 }, {
 	"meterId": "1627671912754-c3d5-4ee1",
 	"channel": 1,
-	"meterDescription": "San Jose (1627671912754-6e8a-ede8)",
+	"meterDescription": "SanJose (d72e)",
 	"isDst": false,
 	"hour01": "-0.722",
 	"hour02": "-0.126",
@@ -9020,7 +9020,7 @@
 }, {
 	"meterId": "1627671912754-7685-be26",
 	"channel": 1,
-	"meterDescription": "Indianapolis (1627671912754-5bf6-5608)",
+	"meterDescription": "Indianapolis (5462)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.324",
@@ -9049,7 +9049,7 @@
 }, {
 	"meterId": "1627671912754-cf1f-6160",
 	"channel": 1,
-	"meterDescription": "Jacksonville (1627671912754-5890-21e8)",
+	"meterDescription": "Jacksonville (e881)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9078,7 +9078,7 @@
 }, {
 	"meterId": "1627671912754-820e-0e3e",
 	"channel": 1,
-	"meterDescription": "San Francisco (1627671912754-aaa3-8a90)",
+	"meterDescription": "SanFrancisco (3771)",
 	"isDst": false,
 	"hour01": "0.847",
 	"hour02": "0.719",
@@ -9107,7 +9107,7 @@
 }, {
 	"meterId": "1627671912754-5a79-8785",
 	"channel": 1,
-	"meterDescription": "Columbus (1627671912754-d6d3-2b88)",
+	"meterDescription": "Columbus (e2eb)",
 	"isDst": false,
 	"hour01": "0.516",
 	"hour02": "0.962",
@@ -9136,7 +9136,7 @@
 }, {
 	"meterId": "1627671912754-7627-f512",
 	"channel": 1,
-	"meterDescription": "Austin (1627671912754-2b10-1b3c)",
+	"meterDescription": "Austin (3390)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9165,7 +9165,7 @@
 }, {
 	"meterId": "1627671912754-d062-13bf",
 	"channel": 1,
-	"meterDescription": "Memphis (1627671912754-419e-b81a)",
+	"meterDescription": "Memphis (59e7)",
 	"isDst": false,
 	"hour01": "1.035",
 	"hour02": "0.425",
@@ -9194,7 +9194,7 @@
 }, {
 	"meterId": "1627671912754-0e5e-af29",
 	"channel": 1,
-	"meterDescription": "Baltimore (1627671912754-badc-1e29)",
+	"meterDescription": "Baltimore (d15d)",
 	"isDst": false,
 	"hour01": "0.561",
 	"hour02": "0.164",
@@ -9223,7 +9223,7 @@
 }, {
 	"meterId": "1627671912754-6e36-7934",
 	"channel": 1,
-	"meterDescription": "Charlotte (1627671912754-d230-693b)",
+	"meterDescription": "Charlotte (c1dd)",
 	"isDst": false,
 	"hour01": "0.627",
 	"hour02": "1.367",
@@ -9252,7 +9252,7 @@
 }, {
 	"meterId": "1627671912754-d4e8-ec72",
 	"channel": 1,
-	"meterDescription": "Fort Worth (1627671912754-2828-7829)",
+	"meterDescription": "FortWorth (e071)",
 	"isDst": false,
 	"hour01": "0.401",
 	"hour02": "0.168",
@@ -9281,7 +9281,7 @@
 }, {
 	"meterId": "1627671912754-9ea4-0176",
 	"channel": 1,
-	"meterDescription": "Boston (1627671912754-b84d-22a0)",
+	"meterDescription": "Boston (5b7f)",
 	"isDst": false,
 	"hour01": "-1.412",
 	"hour02": "-1.303",
@@ -9310,7 +9310,7 @@
 }, {
 	"meterId": "1627671912754-fa7f-ce91",
 	"channel": 1,
-	"meterDescription": "Milwaukee (1627671912754-59cb-669e)",
+	"meterDescription": "Milwaukee (36b8)",
 	"isDst": false,
 	"hour01": "0.265",
 	"hour02": "0.572",
@@ -9339,7 +9339,7 @@
 }, {
 	"meterId": "1627671912754-d90e-134c",
 	"channel": 1,
-	"meterDescription": "El Paso (1627671912754-3c2f-263b)",
+	"meterDescription": "ElPaso (0267)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9368,7 +9368,7 @@
 }, {
 	"meterId": "1627671912754-0276-b2f9",
 	"channel": 1,
-	"meterDescription": "Washington (1627671912754-2cfa-3d8b)",
+	"meterDescription": "Washington (5ef1)",
 	"isDst": false,
 	"hour01": "0.260",
 	"hour02": "1.030",
@@ -9397,7 +9397,7 @@
 }, {
 	"meterId": "1627671912754-abdf-7d2a",
 	"channel": 1,
-	"meterDescription": "Nashville-Davidson (1627671912754-3f66-7566)",
+	"meterDescription": "Nashville-Davidson (2568)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9426,7 +9426,7 @@
 }, {
 	"meterId": "1627671912754-dc1c-2177",
 	"channel": 1,
-	"meterDescription": "Seattle (1627671912754-0e1c-ac8f)",
+	"meterDescription": "Seattle (57ed)",
 	"isDst": false,
 	"hour01": "-1.182",
 	"hour02": "-0.617",
@@ -9455,7 +9455,7 @@
 }, {
 	"meterId": "1627671912754-06cc-b796",
 	"channel": 0,
-	"meterDescription": "Denver (1627671912754-9e43-f8a4)",
+	"meterDescription": "Denver (5696)",
 	"isDst": false,
 	"hour01": "1.124",
 	"hour02": "0.673",
@@ -9484,7 +9484,7 @@
 }, {
 	"meterId": "1627671912754-257c-1f25",
 	"channel": 0,
-	"meterDescription": "Las Vegas (1627671912754-f7a6-30bd)",
+	"meterDescription": "LasVegas (78d5)",
 	"isDst": false,
 	"hour01": "0.122",
 	"hour02": "0.811",
@@ -9513,7 +9513,7 @@
 }, {
 	"meterId": "1627671912754-e878-ba9e",
 	"channel": 0,
-	"meterDescription": "Portland (1627671912754-3b42-84ba)",
+	"meterDescription": "Portland (950c)",
 	"isDst": false,
 	"hour01": "0.330",
 	"hour02": "0.103",
@@ -9542,7 +9542,7 @@
 }, {
 	"meterId": "1627671912754-7aad-941f",
 	"channel": 0,
-	"meterDescription": "Oklahoma City (1627671912754-3402-581f)",
+	"meterDescription": "OklahomaCity (eb0e)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9571,7 +9571,7 @@
 }, {
 	"meterId": "1627671912754-f1d2-13ab",
 	"channel": 1,
-	"meterDescription": "Tucson (1627671912754-a11e-9d18)",
+	"meterDescription": "Tucson (1aec)",
 	"isDst": false,
 	"hour01": "-0.292",
 	"hour02": "-0.817",
@@ -9600,7 +9600,7 @@
 }, {
 	"meterId": "1627671912754-0135-1e52",
 	"channel": 1,
-	"meterDescription": "Albuquerque (1627671912754-d854-bb1b)",
+	"meterDescription": "Albuquerque (253b)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0",
@@ -9629,7 +9629,7 @@
 }, {
 	"meterId": "1627671912754-8f3f-9d31",
 	"channel": 1,
-	"meterDescription": "Atlanta (1627671912754-d0bc-feba)",
+	"meterDescription": "Atlanta (7db9)",
 	"isDst": false,
 	"hour01": "0.544",
 	"hour02": "0.392",
@@ -9658,7 +9658,7 @@
 }, {
 	"meterId": "1627671912754-9de1-326a",
 	"channel": 1,
-	"meterDescription": "Long Beach (1627671912754-22d2-d741)",
+	"meterDescription": "LongBeach (6e06)",
 	"isDst": false,
 	"hour01": "0.962",
 	"hour02": "0.181",
@@ -9687,7 +9687,7 @@
 }, {
 	"meterId": "1627671912754-7d24-1357",
 	"channel": 1,
-	"meterDescription": "Kansas City (1627671912754-3e13-df62)",
+	"meterDescription": "KansasCity (2018)",
 	"isDst": false,
 	"hour01": "0.720",
 	"hour02": "1.094",
@@ -9716,7 +9716,7 @@
 }, {
 	"meterId": "1627671912754-f7a7-0bb0",
 	"channel": 1,
-	"meterDescription": "Fresno (1627671912754-f023-2d19)",
+	"meterDescription": "Fresno (512a)",
 	"isDst": false,
 	"hour01": "-1.137",
 	"hour02": "-0.982",
@@ -9745,7 +9745,7 @@
 }, {
 	"meterId": "1627671912754-9e92-ed47",
 	"channel": 1,
-	"meterDescription": "New Orleans (1627671912754-a554-e40c)",
+	"meterDescription": "NewOrleans (04fd)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9774,7 +9774,7 @@
 }, {
 	"meterId": "1627671912754-7d10-2868",
 	"channel": 1,
-	"meterDescription": "Cleveland (1627671912754-30f4-6fd8)",
+	"meterDescription": "Cleveland (7491)",
 	"isDst": false,
 	"hour01": "0.434",
 	"hour02": "1.259",
@@ -9803,7 +9803,7 @@
 }, {
 	"meterId": "1627671912754-164c-5355",
 	"channel": 1,
-	"meterDescription": "Sacramento (1627671912754-d625-ffee)",
+	"meterDescription": "Sacramento (e9ad)",
 	"isDst": false,
 	"hour01": "1.211",
 	"hour02": "0.355",
@@ -9832,7 +9832,7 @@
 }, {
 	"meterId": "1627671912754-fd5c-c7e9",
 	"channel": 1,
-	"meterDescription": "Mesa (1627671912754-1a6a-55bb)",
+	"meterDescription": "Mesa (f864)",
 	"isDst": false,
 	"hour01": "0.150",
 	"hour02": "0.925",
@@ -9861,7 +9861,7 @@
 }, {
 	"meterId": "1627671912754-00e4-7465",
 	"channel": 1,
-	"meterDescription": "Virginia Beach (1627671912754-2bac-9cb2)",
+	"meterDescription": "VirginiaBeach (dc02)",
 	"isDst": false,
 	"hour01": "-0.415",
 	"hour02": "-0.474",
@@ -9890,7 +9890,7 @@
 }, {
 	"meterId": "1627671912754-16df-d217",
 	"channel": 1,
-	"meterDescription": "Omaha (1627671912754-d109-d285)",
+	"meterDescription": "Omaha (f1a6)",
 	"isDst": false,
 	"hour01": "0.053",
 	"hour02": "0.210",
@@ -9919,7 +9919,7 @@
 }, {
 	"meterId": "1627671912754-d2fb-09bf",
 	"channel": 3,
-	"meterDescription": "Colorado Springs (1627671912754-9050-e1c8)",
+	"meterDescription": "ColoradoSprings (19c3)",
 	"isDst": false,
 	"hour01": "0.211",
 	"hour02": "0.228",
@@ -9948,7 +9948,7 @@
 }, {
 	"meterId": "1627671912754-6577-2249",
 	"channel": 3,
-	"meterDescription": "Oakland (1627671912754-dd34-c676)",
+	"meterDescription": "Oakland (656c)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -9977,7 +9977,7 @@
 }, {
 	"meterId": "1627671912754-b2b1-f1d5",
 	"channel": 3,
-	"meterDescription": "Miami (1627671912754-2a76-23c5)",
+	"meterDescription": "Miami (b4d3)",
 	"isDst": false,
 	"hour01": "0.058",
 	"hour02": "0.693",
@@ -10006,7 +10006,7 @@
 }, {
 	"meterId": "1627671912754-53c4-34f2",
 	"channel": 3,
-	"meterDescription": "Tulsa (1627671912754-aa3b-1180)",
+	"meterDescription": "Tulsa (6ffe)",
 	"isDst": false,
 	"hour01": "-0.650",
 	"hour02": "-1.009",
@@ -10035,7 +10035,7 @@
 }, {
 	"meterId": "1627671912754-718e-7383",
 	"channel": 3,
-	"meterDescription": "Minneapolis (1627671912754-6e48-8a49)",
+	"meterDescription": "Minneapolis (43e9)",
 	"isDst": false,
 	"hour01": "1.256",
 	"hour02": "0.297",
@@ -10064,7 +10064,7 @@
 }, {
 	"meterId": "1627671912754-aa5a-b1af",
 	"channel": 3,
-	"meterDescription": "Honolulu (1627671912754-fb3d-d505)",
+	"meterDescription": "Honolulu (dffd)",
 	"isDst": false,
 	"hour01": "0.666",
 	"hour02": "1.170",
@@ -10093,7 +10093,7 @@
 }, {
 	"meterId": "1627671912754-f31c-2b65",
 	"channel": 3,
-	"meterDescription": "Arlington (1627671912754-4fc2-5c12)",
+	"meterDescription": "Arlington (1409)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -10122,7 +10122,7 @@
 }, {
 	"meterId": "1627671912754-cbfb-bd24",
 	"channel": 3,
-	"meterDescription": "Wichita (1627671912754-f741-d5c1)",
+	"meterDescription": "Wichita (8f2d)",
 	"isDst": false,
 	"hour01": "1.479",
 	"hour02": "0.030",
@@ -10151,7 +10151,7 @@
 }, {
 	"meterId": "1627671912754-2548-1ad7",
 	"channel": 3,
-	"meterDescription": "St. Louis (1627671912754-9e73-a369)",
+	"meterDescription": "St.Louis (fe2a)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -10180,7 +10180,7 @@
 }, {
 	"meterId": "1627671912754-a3db-b391",
 	"channel": 3,
-	"meterDescription": "Raleigh (1627671912754-f456-3164)",
+	"meterDescription": "Raleigh (d9ec)",
 	"isDst": false,
 	"hour01": "0.456",
 	"hour02": "1.362",
@@ -10209,7 +10209,7 @@
 }, {
 	"meterId": "1627671912754-10fc-dfcd",
 	"channel": 3,
-	"meterDescription": "Santa Ana (1627671912754-d250-d4e5)",
+	"meterDescription": "SantaAna (4164)",
 	"isDst": false,
 	"hour01": "0.225",
 	"hour02": "1.398",
@@ -10238,7 +10238,7 @@
 }, {
 	"meterId": "1627671912754-178d-d0c4",
 	"channel": 1,
-	"meterDescription": "Cincinnati (1627671912754-c708-4796)",
+	"meterDescription": "Cincinnati (a70b)",
 	"isDst": false,
 	"hour01": "1.297",
 	"hour02": "0.188",
@@ -10267,7 +10267,7 @@
 }, {
 	"meterId": "1627671912754-1f77-609a",
 	"channel": 1,
-	"meterDescription": "Anaheim (1627671912754-7b04-a400)",
+	"meterDescription": "Anaheim (58a7)",
 	"isDst": false,
 	"hour01": "0",
 	"hour02": "0.189",
@@ -10296,7 +10296,7 @@
 }, {
 	"meterId": "1627671912754-24b7-58f9",
 	"channel": 1,
-	"meterDescription": "Tampa (1627671912754-791f-d280)",
+	"meterDescription": "Tampa (838c)",
 	"isDst": false,
 	"hour01": "-1.488",
 	"hour02": "-0.068",
@@ -10325,7 +10325,7 @@
 }, {
 	"meterId": "1627671912754-0191-c6ba",
 	"channel": 1,
-	"meterDescription": "Toledo (1627671912754-1a9f-2417)",
+	"meterDescription": "Toledo (1130)",
 	"isDst": false,
 	"hour01": "1.444",
 	"hour02": "0.919",
@@ -10354,7 +10354,7 @@
 }, {
 	"meterId": "1627671912754-14ee-818d",
 	"channel": 1,
-	"meterDescription": "Pittsburgh (1627671912754-5732-ca65)",
+	"meterDescription": "Pittsburgh (bcb0)",
 	"isDst": false,
 	"hour01": 0,
 	"hour02": 0,
@@ -10383,7 +10383,7 @@
 }, {
 	"meterId": "1627671912754-5f55-adca",
 	"channel": 1,
-	"meterDescription": "Aurora (1627671912754-fc89-d7a8)",
+	"meterDescription": "Aurora (77fe)",
 	"isDst": false,
 	"hour01": "1.223",
 	"hour02": "0.993",
@@ -10412,7 +10412,7 @@
 }, {
 	"meterId": "1627671912754-f552-4a54",
 	"channel": 1,
-	"meterDescription": "Bakersfield (1627671912754-ae04-1149)",
+	"meterDescription": "Bakersfield (cb9c)",
 	"isDst": false,
 	"hour01": "0.061",
 	"hour02": "0.573",
