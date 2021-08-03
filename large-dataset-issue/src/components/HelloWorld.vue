@@ -106,9 +106,10 @@ export default Vue.extend({
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.cellFormat({backgroundColor: '#f5f0ee', textAlign: 'left'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
 
       // set the meter description width
-      spreadsheet.setColWidth(200, 0, 0);
+      spreadsheet.setColWidth(150, 0, 0);
       spreadsheet.resize();
     },
     letterFromNumber(num) {
