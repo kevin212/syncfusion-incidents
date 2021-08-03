@@ -5,22 +5,22 @@
       v-if="spreadsheetVisible"
       ref="spreadsheet"
       id="spreadsheet"
-      :showFormulaBar="false"
       :showRibbon="false"
       :showSheetTabs="false"
+      :showFormulaBar="false"
       :enableContextMenu="false"
-      :isRowColumnHeadersVisible="false"
+      :created="spreadsheetCreated"
       :scrollSettings="scrollSettings"
-      :created="spreadsheetCreated">
+      :isRowColumnHeadersVisible="false">
         <e-sheets>
           <e-sheet
           :name="worksheetName"
           :frozenRows=1
           :frozenColumns=1
+          :showHeaders="false"
           :colCount="maxColCount"
           :rowCount="maxRowCount"
           :height="spreadsheetHeight"
-          :showHeaders="false"
           :isProtected="spreadsheetProtected" :protectSettings="{ selectCells: true }">
             <e-ranges>
               <e-range :dataSource="spreadsheetDataSource" :query="query"></e-range>
@@ -45,11 +45,8 @@ import { Query } from "@syncfusion/ej2-data";
 import * as demoData from "./large-dataset.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
-const FONT_SIZE_HEADER = '18px;';
 const FONT_SIZE_DATA = '14px;';
-const COL_WIDTH_DATA_CELL = 60;
-const COL_WIDTH_ROW_TOTAL = 75;
-const COL_WIDTH_METER_DESCRIPTION = 150;
+const FONT_SIZE_HEADER = '18px;';
 
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
@@ -60,21 +57,20 @@ export default Vue.extend({
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
     this.maxRowCount = this.spreadsheetDataSource.length + 2;
-    setTimeout(() => {this.spreadsheetVisible = true;}, 1000);
+    // show the spreadsheet
+    this.spreadsheetVisible = true;
   },
   data: () => {
     return {
-      worksheetName: 'LogSheet',
-      spreadsheetVisible: false,
-      spreadsheetHeight: 500,
       query: [],
+      columns: [],
       maxColCountx: 25,
       maxRowCount: 100,
-      spreadsheetProtected: false,
+      spreadsheetHeight: 500,
       spreadsheetDataSource: [],
-      rowIndex: 30,
-      colIndex: 4,
-      columns: [],
+      worksheetName: 'LogSheet',
+      spreadsheetVisible: false,
+      spreadsheetProtected: false,
       scrollSettings: {isFinite: true, enableVirtualization: true},
       queryModel: ['meterDescription','hour01','hour02','hour03','hour04','hour05',
       'hour06','hour07','hour08','hour09','hour10','hour11','hour12','hour13','hour14',
@@ -93,40 +89,17 @@ export default Vue.extend({
     buildQueryModel(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
     },
-    styleSpreadsheet() {
-      const spreadsheet = this.$refs.spreadsheet;
-      const lastRowIndex = this.spreadsheetDataSource.length + 2;
-      const headersConfig = {fontWeight: 'bold', fontSize: FONT_SIZE_HEADER, backgroundColor: '#eef3f5'};
-      const totalsConfig = {fontWeight: 'bold', backgroundColor: '#fefee1'};
-
-      spreadsheet.cellFormat(headersConfig, 'A1:Z1');
-      spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
-      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:A${lastRowIndex}`);
-      spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
-      spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
-      spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
-      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
-      spreadsheet.cellFormat({backgroundColor: '#f5f0ee', textAlign: 'left'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
-
-      // set the meter description width
-      spreadsheet.setColWidth(150, 0, 0);
-      spreadsheet.resize();
-    },
     letterFromNumber(num) {
       let letter = String.fromCharCode(97 + num)
       return letter.toUpperCase();
     },
-    alphabetPosition(text) {
-      let result = '';
+    queryToObject (){
+        var i = 0, retObj = {},
+          pair = null, sPageURL = window.location.search.substring(1),
+          qArr = sPageURL.split('&');
 
-      for (let i = 0; i < text.length; i++) {
-        let code = text.toUpperCase().charCodeAt(i);
-        if (code > 64 && code < 91) {
-          result += (code - 64) + ' ';
-        }
-      }
-
-      return result.slice(0, result.length - 1);
+        for (; i < qArr.length; i++){pair = qArr[i].split('='); retObj[pair[0]] = pair[1]; }
+        return retObj;
     },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
@@ -145,6 +118,18 @@ export default Vue.extend({
       configs.forEach(config => {
         spreadsheet.updateCell(config.props, config.cell);
       });
+    },
+    alphabetPosition(text) {
+      let result = '';
+
+      for (let i = 0; i < text.length; i++) {
+        let code = text.toUpperCase().charCodeAt(i);
+        if (code > 64 && code < 91) {
+          result += (code - 64) + ' ';
+        }
+      }
+
+      return result.slice(0, result.length - 1);
     },
     buildTotalsRowFormulaConfigs() {
       const configs = [];
@@ -169,8 +154,6 @@ export default Vue.extend({
       const dataSource = this.spreadsheetDataSource;
 
       if (queryStringObject && queryStringObject.dataRows){
-        console.warn('queryStringObject ->');
-        console.dir(queryStringObject);
         const totaldDtaRows = parseInt(queryStringObject.dataRows, 10);
 
         if (totaldDtaRows && totaldDtaRows < dataSource.length){
@@ -181,53 +164,60 @@ export default Vue.extend({
         }
       }
     },
-    queryToObject (){
-        var
-        i = 0,
-        retObj = {},
-        pair = null,
-        sPageURL = window.location.search.substring(1),
-        qArr = sPageURL.split('&');
-
-        for (; i < qArr.length; i++){
-            pair = qArr[i].split('=');
-            retObj[pair[0]] = pair[1];
-        }
-
-        return retObj;
-    },
     buildColumns(data) {
       const hourText = 'hour';
       const firstElement = data[0];
 
+      // build meter description column
       this.columns.push({
+        width:  150,
         field: 'name',
         textAlign: 'Left',
-        headerText: 'Meter Description',
-        width:  COL_WIDTH_METER_DESCRIPTION
+        headerText: 'Meter Description'
       });
 
+      // build 'hourXX' columns
       for (let prop in firstElement) {
-        // target only "hourXX" props
+        // target only 'hourXX' props
         if (prop.indexOf(hourText) > -1) {
           const headerTextArr = prop.split(hourText);
 
           this.columns.push({
+            width:  60,
             field: prop,
             textAlign: 'center',
-            headerText: headerTextArr[1],
-            width:  COL_WIDTH_DATA_CELL
+            headerText: headerTextArr[1]
           });
         }
       }
 
+      // build row total column
       this.columns.push({
+        width: 75,
         field: 'rowTotal',
         headerText: 'Total',
-        textAlign: 'center',
-        width: COL_WIDTH_ROW_TOTAL
+        textAlign: 'center'
       });
-    }
+    },
+    styleSpreadsheet() {
+      const spreadsheet = this.$refs.spreadsheet;
+      const lastRowIndex = this.spreadsheetDataSource.length + 2;
+      const headersConfig = {fontWeight: 'bold', fontSize: FONT_SIZE_HEADER, backgroundColor: '#eef3f5'};
+      const totalsConfig = {fontWeight: 'bold', backgroundColor: '#fefee1'};
+
+      spreadsheet.cellFormat(headersConfig, 'A1:Z1');
+      spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
+      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:A${lastRowIndex}`);
+      spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+      spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
+      spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.cellFormat({backgroundColor: '#f5f0ee', textAlign: 'left'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
+
+      // set the meter description width
+      spreadsheet.setColWidth(150, 0, 0);
+      spreadsheet.resize();
+    },
   }
 });
 </script>
