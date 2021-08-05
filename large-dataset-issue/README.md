@@ -20,3 +20,21 @@ http://localhost:8080?dataRows=150 - Load 150 data rows
 http://localhost:8080?sort=asc&dataRows=225 - Load 225 data rows, Sort data acending
 
 ETC...
+
+### Alternate Data Sets:
+
+http://localhost:8080?dataSet=b
+
+http://localhost:8080?dataSet=c
+
+http://localhost:8080?dataSet=b&dataRows=10
+
+http://localhost:8080?dataSet=c&dataRows=10
+
+http://localhost:8080?dataSet=b&dataRows=50
+
+http://localhost:8080?dataSet=c&dataRows=50
+
+http://localhost:8080?dataSet=b&dataRows=200
+
+http://localhost:8080?dataSet=c&dataRows=200
