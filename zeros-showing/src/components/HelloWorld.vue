@@ -43,8 +43,6 @@
 import Vue from "vue";
 import { Query } from "@syncfusion/ej2-data";
 import * as demoData_A from "./demo-data-a.json";
-import * as demoData_B from "./demo-data-b.json";
-import * as demoData_C from "./demo-data-c.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
 const FONT_SIZE_DATA = '8px;';
@@ -53,9 +51,7 @@ const FONT_SIZE_HEADER = '8px;';
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
-    this.setSpreadsheetDataSource()
-    this.setSpreadsheetDataSort();
-    this.processCustomDataSize();
+    this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
@@ -92,12 +88,6 @@ export default Vue.extend({
     buildQueryModel(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
     },
-    sortSpreadsheetDataSourceAsc() {
-       this.spreadsheetDataSource.sort((a, b) => (a.meterDescription > b.meterDescription) ? 1 : -1);
-    },
-    sortSpreadsheetDataSourceDesc() {
-       this.spreadsheetDataSource.sort((a, b) => (a.meterDescription < b.meterDescription) ? 1 : -1);
-    },
     letterFromNumber(num) {
       let letter = String.fromCharCode(97 + num)
       return letter.toUpperCase();
@@ -128,35 +118,6 @@ export default Vue.extend({
         spreadsheet.updateCell(config.props, config.cell);
       });
     },
-    setSpreadsheetDataSort() {
-      const queryStringObject = this.queryToObject();
-
-      if (queryStringObject && queryStringObject.sort){
-        if (queryStringObject.sort === 'asc'){
-            this.sortSpreadsheetDataSourceAsc();
-            console.warn('SORT ORDER: ASC');
-        } else if (queryStringObject.sort === 'desc') {
-            this.sortSpreadsheetDataSourceDesc();
-            console.warn('SORT ORDER: DESC');
-        }
-      }
-    },
-    setSpreadsheetDataSource() {
-      const queryStringObject = this.queryToObject();
-
-      if (queryStringObject && queryStringObject.dataSet){
-        if (queryStringObject.dataSet === 'b'){
-            this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_B.default));
-            console.warn(`Using demoData_B, total size: ${this.spreadsheetDataSource.length} rows`);
-        } else if (queryStringObject.dataSet === 'c') {
-            this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_C.default));
-            console.warn(`Using demoData_B, total size: ${this.spreadsheetDataSource.length} rows`);
-        }
-      } else {
-        this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
-        console.warn(`Using demoData_A, total size: ${this.spreadsheetDataSource.length} rows`);
-      }
-    },
     alphabetPosition(text) {
       let result = '';
 
@@ -186,21 +147,6 @@ export default Vue.extend({
       }
 
       return configs;
-    },
-    processCustomDataSize() {
-      const queryStringObject = this.queryToObject();
-      const dataSource = this.spreadsheetDataSource;
-
-      if (queryStringObject && queryStringObject.dataRows){
-        const totaldDtaRows = parseInt(queryStringObject.dataRows, 10);
-
-        if (totaldDtaRows && totaldDtaRows < dataSource.length){
-          dataSource.length = totaldDtaRows;
-          console.warn(`Data size: ${dataSource.length} elements`);	
-        } else {
-          console.warn(`queryString.dataRows equals or exceeds actual data size. Using actual data size. (${dataSource.length} elements)`);
-        }
-      }
     },
     buildColumns(data) {
       const hourText = 'hour';
