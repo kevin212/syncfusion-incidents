@@ -1,6 +1,17 @@
 <template>
   <div class="control-section">
     <div id="spreadsheet-default-section">
+      <div class="spreadsheet-buttons-container">
+        <button
+        cssClass="e-control"
+        v-on:click="copySpreadsheet">Copy Spreadsheet</button>
+        <button
+        cssClass="e-control"
+        v-on:click="copyDataOnly">Copy Data Only</button>
+        <button
+        cssClass="e-control"
+        v-on:click="copySelection">Copy Selection</button>
+      </div>
       <ejs-spreadsheet
       v-if="spreadsheetVisible"
       ref="spreadsheet"
@@ -9,6 +20,7 @@
       :showSheetTabs="false"
       :showFormulaBar="false"
       :enableContextMenu="false"
+      :select="onSelected"
       :created="spreadsheetCreated"
       :scrollSettings="scrollSettings"
       :isRowColumnHeadersVisible="false">
@@ -77,6 +89,21 @@ export default Vue.extend({
     }
   },
   methods: {
+    copySelection() {
+      const spreadsheet = this.$refs.spreadsheet;
+      spreadsheet.copy(this.lastRangeSelection);
+    },
+    copySpreadsheet() {
+      const spreadsheet = this.$refs.spreadsheet;
+      spreadsheet.copy('A1:Z5');
+    },
+    copyDataOnly() {
+      const spreadsheet = this.$refs.spreadsheet;
+      spreadsheet.copy('B2:Z4');
+    },
+    onSelected(args) {
+      this.lastSelection = args.range;
+    },
     spreadsheetCreated() {
       this.addTotalsColumn();
       this.addTotalsRowFormulas(this.buildTotalsRowFormulaConfigs());
@@ -195,7 +222,7 @@ export default Vue.extend({
       spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
-      spreadsheet.numberFormat('###,###.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.numberFormat('0.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.cellFormat({backgroundColor: '#f5f0ee', textAlign: 'left'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
 
       spreadsheet.cellFormat({fontSize: '10px'}, `B${2}:Z${this.spreadsheetDataSource.length + 2}`);
@@ -212,4 +239,14 @@ export default Vue.extend({
   }
 });
 </script>
+
+<style>
+#spreadsheet-default-section .spreadsheet-buttons-container{
+  margin-bottom: 10px;
+}
+
+#spreadsheet-default-section .spreadsheet-buttons-container button{
+  margin-right: 10px;
+}
+</style>
 
