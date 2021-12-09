@@ -1,7 +1,7 @@
 <template>
   <div class="control-section">
     <div id="spreadsheet-default-section">
-      <div><h1>@syncfusion/ej2-vue-spreadsheet VER 19.3.57</h1></div>
+      <div><h1>@syncfusion/ej2-vue-spreadsheet VER 19.3.58</h1></div>
       <div class="spreadsheet-buttons-container">
         <button
         cssClass="e-control"
