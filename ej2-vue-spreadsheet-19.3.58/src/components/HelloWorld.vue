@@ -278,7 +278,7 @@ export default Vue.extend({
     setCellReferences(cellReferences, dataSourceLength) {
       const cells = cellReferences;
       const firstRowNumber = 1;
-      const lastRowNumber = dataSourceLength;
+      const lastRowNumber = dataSourceLength + 2;
       const penultimateColumLetterIndex = this.alphabetPosition(cells.lastColumnLetter) - 2;
       const penultimateColumLetter = this.letterFromNumber(penultimateColumLetterIndex);
 
