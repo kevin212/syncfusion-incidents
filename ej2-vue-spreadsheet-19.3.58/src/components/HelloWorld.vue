@@ -78,7 +78,7 @@ export default Vue.extend({
     return {
       query: [],
       columns: [],
-      maxColCountx: 25,
+      maxColCount: 25,
       maxRowCount: 100,
       spreadsheetHeight: 750,
       spreadsheetDataSource: [],
