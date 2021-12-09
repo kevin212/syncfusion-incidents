@@ -161,9 +161,13 @@ export default Vue.extend({
         const queryObject = this.queryToObject();
 
         if (queryObject && queryObject.rows) {
-          this.spreadsheetDataSource.length = parseInt(queryObject.rows);
+          const numberOfRows = parseInt(queryObject.rows);
+
+          if (numberOfRows <= this.spreadsheetDataSource.length) {
+            this.spreadsheetDataSource.length = numberOfRows;
+          }
         } else {
-          this.spreadsheetDataSource.length = 14;
+          this.spreadsheetDataSource.length = 15;
         }
     },
     addTotalsColumn() {
