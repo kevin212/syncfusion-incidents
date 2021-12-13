@@ -1,7 +1,7 @@
 <template>
   <div class="control-section">
     <div id="spreadsheet-default-section">
-      <div><h1>@syncfusion/ej2-vue-spreadsheet VER 19.3.47</h1></div>
+      <div><h1>quickstart-867866913</h1></div>
       <div class="spreadsheet-buttons-container">
         <button cssClass="e-control" v-on:click="copySpreadsheet">
           Copy Spreadsheet
@@ -75,6 +75,8 @@ Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
     this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A));
+    this.setDataLength();
+    this.setCellReferences(this.cellReferences, this.spreadsheetDataSource.length);
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
     this.maxColCount = this.columns.length;
@@ -121,23 +123,50 @@ export default Vue.extend({
         "hour23",
         "hour24",
       ],
+      cellReferences: {
+        "allCells": "",
+        "firsDataCell": "A2",
+        "firstColumnLetter": "A",
+        "lastColumnLetter": "Z",
+        "lastColumnHeader": "Z1",
+        "lastColumnLetterDst": "AA",
+        "lastColumnHeaderDst": "AA1",
+        "singleRowTotalCell" : "Z2",
+        "singleRowTotalCellDst" : "AA2",
+        "dataColumnHeaderCells": "",
+        "firstRowNumber": "",
+        "lastRowNumber": "",
+        "penultimateRowNumber": "",
+        "firstDataCell": "",
+        "lastDataCell": "",
+        "dataCells": "",
+        "firstCell": "",
+        "lastCell": "",
+        "firstColumn": "",
+        "lastColumn": "",
+        "firstRow": "",
+        "lastRow": "",
+        "meterDescriptionCells": "",
+        "totalsRowLabelCell": "",
+        "totalsRowCells": ""
+      }
     };
   },
   methods: {
     copySelection() {
       const spreadsheet = this.$refs.spreadsheet;
-      // spreadsheet.copy(this.lastRangeSelection);
+      spreadsheet.copy(this.lastRangeSelection);
     },
     copySpreadsheet() {
       const spreadsheet = this.$refs.spreadsheet;
-      // spreadsheet.copy('A1:Z5');
+      spreadsheet.copy(this.cellReferences.allCells);
     },
     copyDataOnly() {
       const spreadsheet = this.$refs.spreadsheet;
-      // spreadsheet.copy('B2:Z4');
+      spreadsheet.copy(this.cellReferences.dataCells);
     },
     onSelected(args) {
-      // this.lastSelection = args.range;
+      this.lastSelection = args.range;
     },
     spreadsheetCreated() {
       this.addTotalsColumn();
@@ -166,6 +195,17 @@ export default Vue.extend({
         retObj[pair[0]] = pair[1];
       }
       return retObj;
+    },
+    setDataLength() {
+        const queryObject = this.queryToObject();
+        if (queryObject && queryObject.rows) {
+          const numberOfRows = parseInt(queryObject.rows);
+          if (numberOfRows <= this.spreadsheetDataSource.length) {
+            this.spreadsheetDataSource.length = numberOfRows;
+          }
+        } else {
+          this.spreadsheetDataSource.length = 15;
+        }
     },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
@@ -271,7 +311,7 @@ export default Vue.extend({
         `A2:A${this.spreadsheetDataSource.length + 1}`
       );
       spreadsheet.cellFormat(
-        { textAlign: "left", fontSize: FONT_SIZE_DATA, fontFamily: "Arial" },
+        { textAlign: "left", fontSize: FONT_SIZE_DATA, fontFamily: "Arial"},
         `A1:A${lastRowIndex}`
       );
       spreadsheet.cellFormat(
@@ -306,6 +346,30 @@ export default Vue.extend({
       // }
       spreadsheet.resize();
     },
+    setCellReferences(cellReferences, dataSourceLength) {
+      const cells = cellReferences;
+      const firstRowNumber = 1;
+      const lastRowNumber = dataSourceLength + 2;
+      const penultimateColumLetterIndex = this.alphabetPosition(cells.lastColumnLetter) - 2;
+      const penultimateColumLetter = this.letterFromNumber(penultimateColumLetterIndex);
+      cells.firstRowNumber = firstRowNumber;
+      cells.lastRowNumber = lastRowNumber;
+      cells.penultimateRowNumber = lastRowNumber - 1;
+      cells.firstCell = `${cells.firstColumnLetter}${firstRowNumber}`;
+      cells.lastCell = `${cells.lastColumnLetter}${lastRowNumber}`;
+      cells.allCells = `${cells.firstCell}:${cells.lastCell}`;
+      cells.firstColumn = `${cells.firstCell}:${cells.firstColumnLetter}${lastRowNumber}`;
+      cells.lastColumn = `${cells.lastColumnLetter}${firstRowNumber}:${cells.lastCell}`;
+      cells.firstRow = `${cells.firstColumnLetter}${firstRowNumber}:${cells.lastColumnLetter}${firstRowNumber}`;
+      cells.lastRow = `${cells.firstColumnLetter}${lastRowNumber}:${cells.lastCell}`;
+      cells.firstDataCell = `B2`
+      cells.lastDataCell = `${penultimateColumLetter}${dataSourceLength + 1}`;
+      cells.dataCells = `${cells.firstDataCell}:${cells.lastDataCell}`;
+      cells.meterDescriptionCells = `A2:A${dataSourceLength - 1}`;
+      cells.totalsRowLabelCell = `A${dataSourceLength}`;
+      cells.totalsRowCells = `${cells.lastColumnLetter}2:${cells.lastColumnLetter}${dataSourceLength - 1}`;
+      cells.dataColumnHeaderCells = `${cells.firstColumnLetter}${firstRowNumber}:${cells.lastColumnLetter}${firstRowNumber}`;
+    }
   },
 });
 </script>
