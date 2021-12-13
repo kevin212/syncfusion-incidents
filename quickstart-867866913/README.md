@@ -6,13 +6,21 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
 
-# build for production with minification
-npm run build
-```
+## Issues
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Issue # 1: - When there are more than 50 rows, and I select the ENTIRE spreadsheet manually, and then COPY using "C TRL + C" (or "⌘ + C" for Mac), pasting into MS Excel does not work at all AND the page freezes.
+
+VIDEO DEMONSTRATION
+
+https://kevinchisholm.com/test/gmp/quickstart-867866913/copy-spreadsheet-manually-12-13-2021.mp4
+
+Issue # 2 - When I COPY the ENTIRE spreadsheet programmatically, and there are more than 50 rows, pasting into MS Excel does not work properly.
+
+VIDEO DEMONSTRATION: 
+
+https://kevinchisholm.com/test/gmp/quickstart-867866913/copy-spreadsheet-programmatically-12-13-2021.mp4
