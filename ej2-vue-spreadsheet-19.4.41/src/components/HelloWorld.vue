@@ -58,14 +58,17 @@ import { Query } from "@syncfusion/ej2-data";
 import * as demoData_A from "./demo-data-a.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
-const FONT_SIZE_DATA = '8px;';
-const FONT_SIZE_HEADER = '8px;';
+let FONT_SIZE_DEFAULT = '10px';
+let FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
+let FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
+let FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
 
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
     this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
     this.setDataLength();
+    this.setFontSizes();
     this.setCellReferences(this.cellReferences, this.spreadsheetDataSource.length);
     this.query = new Query().select(this.queryModel);
     this.buildColumns(this.spreadsheetDataSource);
@@ -170,6 +173,32 @@ export default Vue.extend({
           this.spreadsheetDataSource.length = 15;
         }
     },
+    setFontSizes() {
+        const queryObject = this.queryToObject();
+
+        if (queryObject && queryObject.fontSize) {
+          FONT_SIZE_DEFAULT = `${queryObject.fontSize}px`;
+
+          FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
+          FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
+          FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
+        }
+
+        if (queryObject && queryObject.fontSizeData) {
+          FONT_SIZE_DATA = `${queryObject.fontSizeData}px`;
+        }
+
+        if (queryObject && queryObject.fontSizeHeader) {
+          FONT_SIZE_HEADER = `${queryObject.fontSizeHeader}px`;
+        }
+
+        if (queryObject && queryObject.fontSizeDesc) {
+          FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}px`;
+        }
+
+        console.warn(`setFontSizes - ${FONT_SIZE_DEFAULT}`);
+        console.dir(queryObject);
+    },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
 
@@ -261,14 +290,17 @@ export default Vue.extend({
 
       spreadsheet.cellFormat(headersConfig, 'A1:Z1');
       spreadsheet.cellFormat(headersConfig, `A2:A${this.spreadsheetDataSource.length + 1}`);
-      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:A${lastRowIndex}`);
-      spreadsheet.cellFormat({textAlign: 'center', fontSize: FONT_SIZE_DATA, fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+
+      spreadsheet.cellFormat({textAlign: 'left', fontSize: FONT_SIZE_DESCRIPTION, fontFamily: 'Arial'}, `A1:A${lastRowIndex}`);
+      spreadsheet.cellFormat({textAlign: 'center', fontFamily: 'Arial'}, `A1:Z${lastRowIndex}`);
+
+
       spreadsheet.cellFormat(totalsConfig, `Z2:Z${lastRowIndex}`);
       spreadsheet.cellFormat(totalsConfig, `B${lastRowIndex}:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.numberFormat('0.###', `B2:Z${this.spreadsheetDataSource.length + 2}`);
       spreadsheet.cellFormat({backgroundColor: '#f5f0ee', textAlign: 'left'}, `A2:A${this.spreadsheetDataSource.length + 1}`);
 
-      spreadsheet.cellFormat({fontSize: '10px'}, `B${2}:Z${this.spreadsheetDataSource.length + 2}`);
+      spreadsheet.cellFormat({fontSize: FONT_SIZE_DATA}, `B2:Z${this.spreadsheetDataSource.length + 2}`);
 
       // set the meter description width
       spreadsheet.setColWidth(150, 0, 0);
