@@ -63,6 +63,8 @@ let FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
 let FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
 let FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
 
+let DATA_COL_WIDTH = 75;
+
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
@@ -196,6 +198,10 @@ export default Vue.extend({
           FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}px`;
         }
 
+        if (queryObject && queryObject.dataColWidth) {
+          DATA_COL_WIDTH = `${queryObject.dataColWidth}`;
+        }
+
         console.warn(`setFontSizes - ${FONT_SIZE_DEFAULT}`);
         console.dir(queryObject);
     },
@@ -305,11 +311,10 @@ export default Vue.extend({
       // set the meter description width
       spreadsheet.setColWidth(150, 0, 0);
 
-    // set data colum widths
+      // set data colum widths
       for (let i = 1; i < 25; i++) {
-        spreadsheet.setColWidth(75, i, 0);
+        spreadsheet.setColWidth(DATA_COL_WIDTH, i, 0);
       }
-      spreadsheet.resize();
     },
     setCellReferences(cellReferences, dataSourceLength) {
       const cells = cellReferences;
