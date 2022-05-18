@@ -1,5 +1,5 @@
 {
-  "name": "version-20.1.55",
+  "name": "version-20.1.56",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@syncfusion/ej2-data": "20.1.55",
-    "@syncfusion/ej2-vue-spreadsheet": "20.1.55",
+    "@syncfusion/ej2-vue-spreadsheet": "20.1.56",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
