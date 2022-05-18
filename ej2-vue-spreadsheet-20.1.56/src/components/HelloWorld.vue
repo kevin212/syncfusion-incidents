@@ -22,6 +22,7 @@
       :showFormulaBar="false"
       :enableContextMenu="false"
       :select="onSelected"
+      :height="spreadsheetHeight"
       :created="spreadsheetCreated"
       :scrollSettings="scrollSettings"
       :isRowColumnHeadersVisible="false">
@@ -33,7 +34,6 @@
           :showHeaders="false"
           :colCount="maxColCount"
           :rowCount="maxRowCount"
-          :height="spreadsheetHeight"
           :isProtected="spreadsheetProtected" :protectSettings="{ selectCells: true }">
             <e-ranges>
               <e-range :dataSource="spreadsheetDataSource" :query="query"></e-range>
@@ -69,6 +69,7 @@ Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
     this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
+    this.setSpreadsheetHeight();
     this.setDataLength();
     this.setFontSizes();
     this.setCellReferences(this.cellReferences, this.spreadsheetDataSource.length);
@@ -85,7 +86,7 @@ export default Vue.extend({
       columns: [],
       maxColCount: 25,
       maxRowCount: 100,
-      spreadsheetHeight: 750,
+      spreadsheetHeight: 250,
       spreadsheetDataSource: [],
       worksheetName: 'LogSheet',
       spreadsheetVisible: false,
@@ -161,6 +162,13 @@ export default Vue.extend({
 
         for (; i < qArr.length; i++){pair = qArr[i].split('='); retObj[pair[0]] = pair[1]; }
         return retObj;
+    },
+    setSpreadsheetHeight() {
+        const queryObject = this.queryToObject();
+
+        if (queryObject && queryObject.height) {
+          this.spreadsheetHeight = queryObject.height;
+        }
     },
     setDataLength() {
         const queryObject = this.queryToObject();
