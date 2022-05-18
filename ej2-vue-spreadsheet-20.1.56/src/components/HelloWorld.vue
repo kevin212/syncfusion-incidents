@@ -63,7 +63,7 @@ let FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
 let FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
 let FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
 
-let DATA_COL_WIDTH = 75;
+let DATA_COL_WIDTH = 45;
 
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
