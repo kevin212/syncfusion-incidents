@@ -2,17 +2,6 @@
   <div class="control-section">
     <div id="spreadsheet-default-section">
       <div><h1>@syncfusion/ej2-vue-spreadsheet VER 20.1.56</h1></div>
-      <div class="spreadsheet-buttons-container">
-        <button
-        cssClass="e-control"
-        v-on:click="copySpreadsheet">Copy Spreadsheet</button>
-        <button
-        cssClass="e-control"
-        v-on:click="copyDataOnly">Copy Data Only</button>
-        <button
-        cssClass="e-control"
-        v-on:click="copySelection">Copy Selection</button>
-      </div>
       <ejs-spreadsheet
       v-if="spreadsheetVisible"
       ref="spreadsheet"
@@ -126,18 +115,6 @@ export default Vue.extend({
     }
   },
   methods: {
-    copySelection() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.lastRangeSelection);
-    },
-    copySpreadsheet() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.cellReferences.allCells);
-    },
-    copyDataOnly() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.cellReferences.dataCells);
-    },
     onSelected(args) {
       this.lastSelection = args.range;
     },
@@ -358,14 +335,4 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style>
-#spreadsheet-default-section .spreadsheet-buttons-container{
-  margin-bottom: 10px;
-}
-
-#spreadsheet-default-section .spreadsheet-buttons-container button{
-  margin-right: 10px;
-}
-</style>
 
