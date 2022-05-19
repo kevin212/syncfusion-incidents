@@ -2,17 +2,6 @@
   <div class="control-section">
     <div id="spreadsheet-default-section">
       <div><h1>@syncfusion/ej2-vue-spreadsheet VER 19.4.52</h1></div>
-      <div class="spreadsheet-buttons-container">
-        <button
-        cssClass="e-control"
-        v-on:click="copySpreadsheet">Copy Spreadsheet</button>
-        <button
-        cssClass="e-control"
-        v-on:click="copyDataOnly">Copy Data Only</button>
-        <button
-        cssClass="e-control"
-        v-on:click="copySelection">Copy Selection</button>
-      </div>
       <ejs-spreadsheet
       v-if="spreadsheetVisible"
       ref="spreadsheet"
@@ -22,6 +11,7 @@
       :showFormulaBar="false"
       :enableContextMenu="false"
       :select="onSelected"
+      :height="spreadsheetHeight"
       :created="spreadsheetCreated"
       :scrollSettings="scrollSettings"
       :isRowColumnHeadersVisible="false">
@@ -33,7 +23,6 @@
           :showHeaders="false"
           :colCount="maxColCount"
           :rowCount="maxRowCount"
-          :height="spreadsheetHeight"
           :isProtected="spreadsheetProtected" :protectSettings="{ selectCells: true }">
             <e-ranges>
               <e-range :dataSource="spreadsheetDataSource" :query="query"></e-range>
@@ -58,17 +47,18 @@ import { Query } from "@syncfusion/ej2-data";
 import * as demoData_A from "./demo-data-a.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
-let FONT_SIZE_DEFAULT = '10px';
+let FONT_SIZE_DEFAULT = '8pt';
 let FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
 let FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
 let FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
 
-let DATA_COL_WIDTH = 75;
+let DATA_COL_WIDTH = 45;
 
 Vue.use(SpreadsheetPlugin);
 export default Vue.extend({
   created() {
     this.spreadsheetDataSource = JSON.parse(JSON.stringify(demoData_A.default));
+    this.setSpreadsheetHeight();
     this.setDataLength();
     this.setFontSizes();
     this.setCellReferences(this.cellReferences, this.spreadsheetDataSource.length);
@@ -87,6 +77,7 @@ export default Vue.extend({
       maxRowCount: 100,
       spreadsheetHeight: 750,
       spreadsheetDataSource: [],
+      spreadsheetDataSourceDefaultLength: 65,
       worksheetName: 'LogSheet',
       spreadsheetVisible: false,
       spreadsheetProtected: false,
@@ -124,18 +115,6 @@ export default Vue.extend({
     }
   },
   methods: {
-    copySelection() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.lastRangeSelection);
-    },
-    copySpreadsheet() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.cellReferences.allCells);
-    },
-    copyDataOnly() {
-      const spreadsheet = this.$refs.spreadsheet;
-      spreadsheet.copy(this.cellReferences.dataCells);
-    },
     onSelected(args) {
       this.lastSelection = args.range;
     },
@@ -143,6 +122,7 @@ export default Vue.extend({
       this.addTotalsColumn();
       this.addTotalsRowFormulas(this.buildTotalsRowFormulaConfigs());
       this.styleSpreadsheet();
+      setTimeout(() => {this.$refs.spreadsheet.resize();}, 200);
     },
     objectHasProperty(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
@@ -162,6 +142,13 @@ export default Vue.extend({
         for (; i < qArr.length; i++){pair = qArr[i].split('='); retObj[pair[0]] = pair[1]; }
         return retObj;
     },
+    setSpreadsheetHeight() {
+        const queryObject = this.queryToObject();
+
+        if (queryObject && queryObject.height) {
+          this.spreadsheetHeight = queryObject.height;
+        }
+    },
     setDataLength() {
         const queryObject = this.queryToObject();
 
@@ -172,14 +159,14 @@ export default Vue.extend({
             this.spreadsheetDataSource.length = numberOfRows;
           }
         } else {
-          this.spreadsheetDataSource.length = 15;
+          this.spreadsheetDataSource.length = this.spreadsheetDataSourceDefaultLength;
         }
     },
     setFontSizes() {
         const queryObject = this.queryToObject();
 
         if (queryObject && queryObject.fontSize) {
-          FONT_SIZE_DEFAULT = `${queryObject.fontSize}px`;
+          FONT_SIZE_DEFAULT = `${queryObject.fontSize}pt`;
 
           FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
           FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
@@ -187,23 +174,20 @@ export default Vue.extend({
         }
 
         if (queryObject && queryObject.fontSizeData) {
-          FONT_SIZE_DATA = `${queryObject.fontSizeData}px`;
+          FONT_SIZE_DATA = `${queryObject.fontSizeData}pt`;
         }
 
         if (queryObject && queryObject.fontSizeHeader) {
-          FONT_SIZE_HEADER = `${queryObject.fontSizeHeader}px`;
+          FONT_SIZE_HEADER = `${queryObject.fontSizeHeader}pt`;
         }
 
         if (queryObject && queryObject.fontSizeDesc) {
-          FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}px`;
+          FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}pt`;
         }
 
         if (queryObject && queryObject.dataColWidth) {
           DATA_COL_WIDTH = `${queryObject.dataColWidth}`;
         }
-
-        console.warn(`setFontSizes - ${FONT_SIZE_DEFAULT}`);
-        console.dir(queryObject);
     },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
@@ -351,14 +335,4 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style>
-#spreadsheet-default-section .spreadsheet-buttons-container{
-  margin-bottom: 10px;
-}
-
-#spreadsheet-default-section .spreadsheet-buttons-container button{
-  margin-right: 10px;
-}
-</style>
 
