@@ -86,8 +86,9 @@ export default Vue.extend({
       columns: [],
       maxColCount: 25,
       maxRowCount: 100,
-      spreadsheetHeight: 250,
+      spreadsheetHeight: 750,
       spreadsheetDataSource: [],
+      spreadsheetDataSourceDefaultLength: 65,
       worksheetName: 'LogSheet',
       spreadsheetVisible: false,
       spreadsheetProtected: false,
@@ -181,7 +182,7 @@ export default Vue.extend({
             this.spreadsheetDataSource.length = numberOfRows;
           }
         } else {
-          this.spreadsheetDataSource.length = 15;
+          this.spreadsheetDataSource.length = this.spreadsheetDataSourceDefaultLength;
         }
     },
     setFontSizes() {
