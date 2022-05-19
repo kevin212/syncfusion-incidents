@@ -58,7 +58,7 @@ import { Query } from "@syncfusion/ej2-data";
 import * as demoData_A from "./demo-data-a.json";
 import { SpreadsheetPlugin } from "@syncfusion/ej2-vue-spreadsheet";
 
-let FONT_SIZE_DEFAULT = '10px';
+let FONT_SIZE_DEFAULT = '8pt';
 let FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
 let FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
 let FONT_SIZE_HEADER = FONT_SIZE_DEFAULT;
@@ -144,6 +144,7 @@ export default Vue.extend({
       this.addTotalsColumn();
       this.addTotalsRowFormulas(this.buildTotalsRowFormulaConfigs());
       this.styleSpreadsheet();
+      setTimeout(() => {this.$refs.spreadsheet.resize();}, 200);
     },
     objectHasProperty(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
@@ -187,7 +188,7 @@ export default Vue.extend({
         const queryObject = this.queryToObject();
 
         if (queryObject && queryObject.fontSize) {
-          FONT_SIZE_DEFAULT = `${queryObject.fontSize}px`;
+          FONT_SIZE_DEFAULT = `${queryObject.fontSize}pt`;
 
           FONT_SIZE_DESCRIPTION = FONT_SIZE_DEFAULT;
           FONT_SIZE_DATA = FONT_SIZE_DEFAULT;
@@ -195,23 +196,20 @@ export default Vue.extend({
         }
 
         if (queryObject && queryObject.fontSizeData) {
-          FONT_SIZE_DATA = `${queryObject.fontSizeData}px`;
+          FONT_SIZE_DATA = `${queryObject.fontSizeData}pt`;
         }
 
         if (queryObject && queryObject.fontSizeHeader) {
-          FONT_SIZE_HEADER = `${queryObject.fontSizeHeader}px`;
+          FONT_SIZE_HEADER = `${queryObject.fontSizeHeader}pt`;
         }
 
         if (queryObject && queryObject.fontSizeDesc) {
-          FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}px`;
+          FONT_SIZE_DESCRIPTION = `${queryObject.fontSizeDesc}pt`;
         }
 
         if (queryObject && queryObject.dataColWidth) {
           DATA_COL_WIDTH = `${queryObject.dataColWidth}`;
         }
-
-        console.warn(`setFontSizes - ${FONT_SIZE_DEFAULT}`);
-        console.dir(queryObject);
     },
     addTotalsColumn() {
       const spreadsheet = this.$refs.spreadsheet;
