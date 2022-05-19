@@ -168,7 +168,7 @@ export default Vue.extend({
           const headerTextArr = prop.split(hourText);
 
           this.columns.push({
-            width:  150,
+            width:  75,
             field: prop,
             textAlign: 'center',
             headerText: headerTextArr[1]
@@ -178,7 +178,7 @@ export default Vue.extend({
 
       // build row total column
       this.columns.push({
-        width: 150,
+        width: 75,
         field: 'rowTotal',
         headerText: 'Total',
         textAlign: 'center'
@@ -206,7 +206,7 @@ export default Vue.extend({
 
     // set data colum widths
       for (let i = 1; i < 25; i++) {
-        spreadsheet.setColWidth(75, i, 0);
+        spreadsheet.setColWidth(35, i, 0);
       }
       spreadsheet.resize();
     },
