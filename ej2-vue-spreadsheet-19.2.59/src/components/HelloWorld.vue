@@ -206,7 +206,7 @@ export default Vue.extend({
 
     // set data colum widths
       for (let i = 1; i < 25; i++) {
-        spreadsheet.setColWidth(35, i, 0);
+        spreadsheet.setColWidth(45, i, 0);
       }
       spreadsheet.resize();
     },
