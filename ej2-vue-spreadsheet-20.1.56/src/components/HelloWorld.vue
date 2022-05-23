@@ -2,6 +2,11 @@
   <div class="control-section">
     <div id="spreadsheet-default-section">
       <div><h1>@syncfusion/ej2-vue-spreadsheet VER 20.1.56</h1></div>
+      <div class="spreadsheet-buttons-container">
+        <button
+        cssClass="e-control"
+        v-on:click="copySpreadsheet">Copy Spreadsheet</button>
+      </div>
       <ejs-spreadsheet
       v-if="spreadsheetVisible"
       ref="spreadsheet"
@@ -122,7 +127,12 @@ export default Vue.extend({
       this.addTotalsColumn();
       this.addTotalsRowFormulas(this.buildTotalsRowFormulaConfigs());
       this.styleSpreadsheet();
+      this.highlightSomeCells();
       setTimeout(() => {this.$refs.spreadsheet.resize();}, 200);
+    },
+    copySpreadsheet() {
+      const spreadsheet = this.$refs.spreadsheet;
+      spreadsheet.copy(this.cellReferences.allCells);
     },
     objectHasProperty(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
@@ -133,6 +143,21 @@ export default Vue.extend({
     letterFromNumber(num) {
       let letter = String.fromCharCode(97 + num);
       return letter.toUpperCase();
+    },
+    highlightSomeCells (){
+      const spreadsheet = this.$refs.spreadsheet;
+      const cellsToHighlight  = [
+        'B2', 'C2', 'D2', 'E2', 'H2', 'I2',
+        'B3', 'C3', 'E3', 'F3', 'G3',
+        'B4',
+        'B5', 'C5', 'D5', 'F5', 'J5', 'K5',
+        'B5', 'C5', 'D5', 'F5', 'J5', 'K5',
+        'B8', 'C8', 'D8', 'E8', 'F8', 'G8', 'H8', 'I8', 'J8', 'K8', 'L8', 'M8',
+      ];
+
+      cellsToHighlight.forEach(cell => {
+        spreadsheet.cellFormat({backgroundColor: '#f4fd96'}, cell);
+      });
     },
     queryToObject (){
         var i = 0, retObj = {},
@@ -335,4 +360,14 @@ export default Vue.extend({
   }
 });
 </script>
+
+<style>
+#spreadsheet-default-section .spreadsheet-buttons-container{
+  margin-bottom: 10px;
+}
+
+#spreadsheet-default-section .spreadsheet-buttons-container button{
+  margin-right: 10px;
+}
+</style>
 
